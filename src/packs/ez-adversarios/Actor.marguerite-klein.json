@@ -1,0 +1,42 @@
+{
+  "_id": "ExpZarAD004Klein",
+  "name": "Marguerite Klein",
+  "type": "adversario",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "porte": "Adversário à Altura",
+    "vitalidade": 4,
+    "vida": {
+      "pontos": 4
+    },
+    "arma": "Cat. I (pistola compacta — o perigo dela nunca foi a pistola)",
+    "tags": [
+      "Rosto de Mármore",
+      "Recursos Ilimitados"
+    ],
+    "fraquezas": [
+      "A Carga Não Pode Morrer — aborta qualquer plano que arrisque a vida de Nadja; um jogador esperto pode usar a menina como escudo diplomático"
+    ],
+    "itensComDom": [
+      "Anel-Agulha Sedativo (Dom 2: um arranhão da luva direita força teste contra sono; Maldição 1: o anel sussurra à noite)"
+    ],
+    "notas": "Cena 2–4. Consultora de arte de Zurique, oficialmente. Fachada: lê o mesmo jornal há tempo demais; dinheiro novo demais; reservou a cabine 3-D em nome da galeria. A oferta dela é real, desenhada para partir a mesa ao meio. Sabotou o freio do trem na Cena 4. Retorna com Nada a Perder (+1 dado de Risco social).",
+    "cena": "2-4"
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarAD004Klein"
+}

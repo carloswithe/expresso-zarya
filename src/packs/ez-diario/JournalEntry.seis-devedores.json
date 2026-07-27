@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE006Dived",
+  "name": "06 · Os Seis Devedores",
+  "pages": [
+    {
+      "_id": "ExpZarJP006Dived",
+      "name": "Os Seis Devedores — Resumo para o Mestre",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Os Seis Devedores</h1><p>Cada personagem: 3 Qualidades + 3 Defeitos (Características), Ancestralidade (2 Virtudes + 2 Vulnerabilidades), Arquétipo (1 Especialidade + 1 Vício) e Antecedente (Profissão + Trauma). 7 tags positivas e 7 negativas por personagem. As fichas completas estão no compêndio de Personagens.</p><hr /><h2>1. Marek Sokolov — \"O Soldado\"</h2><p><strong>Lobisomem · Caçador · Militar</strong></p><p><strong>A dívida:</strong> sangue. Vorona tirou a família de Marek de uma cidade que os mapas fingem não lembrar. Marek saiu lutando. A conta ficou.</p><p><strong>O botão de Klein:</strong> <em>\"Sabemos onde a sua família mora agora. Para protegê-la, claro.\"</em></p><p><strong>Na mesa:</strong> eixo tático. <em>Visão de Túnel</em> + <em>Instinto Indomável</em>: quando ele trava um alvo perto de Nadja, alguém precisa segurá-lo. A baixela de prata do restaurante corta dos dois lados.</p><hr /><h2>2. Zofia Lem — \"A Dedos\"</h2><p><strong>Férica · Oráculo · Vigarista</strong></p><p><strong>A dívida:</strong> dinheiro com juros de Véu. Zofia bateu a carteira errada em Praga — a de Vorona. O que ela viu ao tocar aquilo a fez desmaiar. Ele não a puniu. Anotou.</p><p><strong>O botão de Klein:</strong> dinheiro dobrado + passaporte novo, sem o nome que ela odeia.</p><p><strong>Na mesa:</strong> chave investigativa mais perigosa — tudo que ela furta, ela lê. <em>Incapaz de Mentir</em> numa vigarista é comédia trágica. O orfanato dela e o de Nadja se reconhecem sem uma palavra.</p><hr /><h2>3. Tomasz Reiner — \"O Advogado Caído\"</h2><p><strong>Ínfero · Maculado · Advogado</strong></p><p><strong>A dívida:</strong> um favor não especificado assinado em branco quando a firma afundava. Nem Tomasz sabe tudo que aquele papel diz.</p><p><strong>O botão de Klein:</strong> <em>\"Nós compramos contratos, doutor. Especialmente os mal redigidos.\"</em></p><p><strong>Na mesa:</strong> eixo social. <em>Escrita de Contrato</em> + <em>Língua de Enxofre</em> fazem dele o único capaz de negociar de igual para igual com Klein, o Abade — e talvez com a própria Chama. Se ele prometer qualquer coisa nesta viagem, o universo cobra.</p><hr /><h2>4. Vera Lindqvist — \"A Estudiosa do Véu\"</h2><p><strong>Humana · Maga · Bibliotecária</strong></p><p><strong>A dívida:</strong> conhecimento. Vera abriu um livro que a olhou de volta. Vorona chegou antes do que saiu do livro.</p><p><strong>O botão de Klein:</strong> acesso vitalício ao acervo oculto do Consórcio — tudo que ela sempre quis ler, sem nenhum livro olhando de volta.</p><p><strong>Na mesa:</strong> eixo mental e o caminho natural para o Plot B. <em>Invisível ao Sobrenatural</em>: a Sombra não a rastreia — a entregadora perfeita da memória final. É ela quem pode provar aos monges que os textos foram mal traduzidos.</p><hr /><h2>5. Gabriel Ferreira — \"O Ex-Noviço\"</h2><p><strong>Celestial · Arma Juramentada · Líder Religioso</strong></p><p><strong>A dívida:</strong> o voto perpétuo — servir Vorona <em>\"até que a chama se apague\"</em>. Gabriel achou que era poesia litúrgica. O Trauma: ele presenciou o pacto de Vorona, décadas atrás, sem entender o que via.</p><p><strong>O botão de Yefrem:</strong> <em>\"Eu também fiz votos, irmão. Também descobri tarde a quem.\"</em></p><p><strong>Na mesa:</strong> pino do clímax. Quando a mesa descobrir o que \"até que a chama se apague\" significa — o voto manda entregar. Se o jogador perceber o duplo sentido sozinho, é a cena da noite.</p><hr /><h2>6. Sasha Baranova — \"A Que Voltou\"</h2><p><strong>Reanimada · Receptáculo · Paramédica</strong></p><p><strong>A dívida:</strong> a segunda vida. Sasha morreu numa ambulância capotada. Vorona pagou o ritual — e o hóspede veio junto, sem consultá-la.</p><p><strong>O botão de Klein:</strong> <em>\"Nós podemos extrair o seu... acompanhante. Sem dor. Você voltaria a ser só você.\"</em> (a única oferta que talvez seja mentira)</p><p><strong>Na mesa:</strong> espelho de Nadja — a única que sabe na pele o que é dividir o corpo. <em>Âncora Estável</em>: imune ao Coro dos Adormecidos. No final, o testemunho dela vale mais que qualquer arma: <em>\"Eu vivo assim há seis anos. Perguntem a ela o que ela quer.\"</em></p><table><thead><tr><th>Eixo</th><th>Quem Cobre</th></tr></thead><tbody><tr><td><strong>FÍSICO</strong></td><td>Marek (linha de frente), Gabriel (sentinela), Sasha (tanque que não cura)</td></tr><tr><td><strong>SOCIAL</strong></td><td>Tomasz (negociação), Zofia (lábia e disfarce), Gabriel (empatia)</td></tr><tr><td><strong>MENTAL</strong></td><td>Vera (teoria), Zofia (psicometria), Sasha (o outro lado)</td></tr><tr><td><strong>DESPERTAR</strong></td><td>Gabriel e Sasha (acalmar), Zofia (conexão de orfanato), Vera (entender)</td></tr></tbody></table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE006Dived.ExpZarJP006Dived"
+    }
+  ],
+  "sort": 600000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE006Dived"
+}

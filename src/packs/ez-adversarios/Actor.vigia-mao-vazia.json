@@ -1,0 +1,38 @@
+{
+  "_id": "ExpZarAD001Vigia",
+  "name": "Vigia da Mão Vazia",
+  "type": "adversario",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "porte": "Capanga",
+    "vitalidade": 1,
+    "vida": {
+      "pontos": 1
+    },
+    "arma": "Cat. I (mãos nuas — não veio para lutar)",
+    "tags": [
+      "Imóvel como Pedra"
+    ],
+    "fraquezas": [
+      "Só Observa — confrontado, foge; encurralado, engole uma cápsula de cera com o relatório e desmaia"
+    ],
+    "notas": "Cena 1. Confirma o embarque de Nadja para a Mão Vazia. Deixa cair um rosário de contas queimadas quando foge — pista que faz Dara empalidecer. Psicometria de Zofia no rosário mostra: dedos descalços na neve, uma lista de nomes de crianças, séculos dela.",
+    "cena": "1"
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarAD001Vigia"
+}

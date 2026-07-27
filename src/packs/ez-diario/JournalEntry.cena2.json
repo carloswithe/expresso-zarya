@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE008Cena2",
+  "name": "08 · Cena 2 — A Véspera (Lago Baikal)",
+  "pages": [
+    {
+      "_id": "ExpZarJP008Cena2",
+      "name": "Cena 2 — A Véspera (Lago Baikal)",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Cena 2 — A Véspera (Lago Baikal)</h1><p><em>Social / Investigação · 60–75 min · Objetivo: identificar as ameaças a bordo — e conquistar a confiança de Nadja e Dara</em></p><h2>Descrição Geral</h2><p>O miolo diurno da viagem, com o Lago Baikal imenso e parcialmente congelado desfilando pela janela. A tensão vem de <strong>quem está mentindo neste trem</strong>. Os jogadores devem se dividir — restaurante, corredores, classe padrão, vagão de bagagem — garantindo spotlight individual. As descobertas desta cena determinam quão preparados estarão nas cenas 3 e 4.</p><blockquote><p><strong>LER PARA OS JOGADORES:</strong></p><p>De dia, o Expresso Zarya finge muito bem ser só um trem. O vagão-restaurante tilinta de talheres e colheres de chá; o samovar de latão no canto solta um vapor doce que cheira a chá preto queimado e geleia de groselha; alguém, em algum lugar, maltrata o piano com duas músicas que vocês quase reconhecem. Pela janela, o Baikal — um horizonte inteiro de gelo trincado e água negra, tão vasto que parece mar, brilhando sob um sol que ilumina sem esquentar nada.</p><p>E há Nadja, ajoelhada no assento da cabine, testa colada no vidro gelado, contando alguma coisa lá fora em voz baixa. Quando vocês perguntam o quê, ela responde sem se virar: <em>\"Os buracos no gelo. A Irmã disse que embaixo do lago mora gente antiga.\"</em> Uma pausa. <em>\"Eles estão contando a gente também.\"</em></p></blockquote><h2>O Tabuleiro Social — Quem é Quem a Bordo</h2><table><thead><tr><th>Passageiro</th><th>Fachada</th><th>Verdade</th><th>Como Descobrir</th></tr></thead><tbody><tr><td><strong>Klein</strong></td><td>Consultora de arte de Zurique (cabine 2-C)</td><td>Agente sênior do Consórcio</td><td>O jornal que \"lê\" tem 3 dias; dinheiro novo demais; reservou a cabine 3-D em nome da galeria; Psicometria de Zofia</td></tr><tr><td><strong>4 Seguranças</strong></td><td>Comerciante de peles, 2 \"engenheiros\", 1 bêbado quieto</td><td>Bando de Capangas por rádio</td><td>Ombros de coldre; nunca comem no mesmo horário; Sucesso Espetacular flagra o fio de rádio atrás da orelha</td></tr><tr><td><strong>Kirill</strong></td><td>Ajudante de cozinha</td><td>Infiltrado da Mão Vazia; sinalizador do assalto</td><td>Pés descalços em botas dois números maiores; não sabe cozinhar; giz nas portas entre vagões</td></tr><tr><td><strong>Iličev</strong></td><td>Chefe de bordo, burocrata cansado</td><td>Exatamente isso — subornável e observador</td><td>Aliado em potencial: sabe tudo de todos</td></tr><tr><td><strong>Pyotr</strong></td><td>Maquinista ranzinza</td><td>Aliado em potencial na Cena 4</td><td>Adora chá com conhaque e histórias</td></tr></tbody></table><h2>Beats e Eventos</h2><ol><li><strong>A abordagem de Klein</strong>: ela escolhe o elo mais fraco e faz A Oferta no restaurante: <em>\"Meus empregadores compram dívidas. Quaisquer dívidas. O senhor Vorona virou um item de colecionador para nós — e a carga de vocês chegaria mais segura conosco do que num mosteiro na ponta do mundo. Pense.\"</em> A oferta é real. Deixe a mesa mastigar.</li><li><strong>O aviso da Mão Vazia</strong>: bilhete por baixo da porta da cabine 3-B (entregue por Kirill): <em>\"Entreguem a fagulha e desçam em Naushki vivos. Vocês não sabem o que carregam. Perguntem à irmã o que acontece com a menina no mosteiro.\"</em></li><li><strong>Nadja testa os guardiões</strong>: ela some (vagão de bagagem, procurando a boneca do meio da matrioska). Quem a encontra e <strong>não briga com ela</strong> ganha a primeira confiança — ouve: <em>\"A Irmã chora quando reza. Ela acha que eu não vejo.\"</em> Se for Zofia, as duas se reconhecem: linguagem de orfanato.</li><li><strong>Manifestação do Despertar (nível 2–3)</strong>: num túnel na margem do lago, no escuro, <strong>todos os reflexos nas janelas do vagão 3 ficam dessincronizados</strong>. O reflexo de Nadja olha diretamente para cada jogador, um por um. Dura o túnel. Ninguém comenta. (+1 Despertar automático ao fim da cena.)</li><li><strong>Opcional</strong>: inspeção de documentos russa de rotina — problema para <em>Má Reputação</em> de Zofia, <em>Estigma Infernal</em> de Tomasz e o <em>Cheiro da Sepultura</em> de Sasha diante de inspetor com cachorro. Chance de ver Klein resolver o próprio problema com um envelope.</li></ol><h2>Rolagens Prováveis</h2><ul><li>Investigação social no restaurante (sem Risco extra — território neutro).</li><li>Vasculhar a cabine 3-D ou o registro do chefe de bordo (furtividade; <em>Corredores Estreitos</em> +1 dado de Risco).</li><li>Seguir Kirill sem ser notado (furtiva; <em>Silencioso como Neve</em> +1 dado de Risco).</li><li>Psicometria de Zofia em objetos furtados (mental; <em>Toque Perigoso</em> +1 dado de Risco — Falha Crítica a incapacita por minutos e ativa o interesse da Sombra por ela).</li><li>Confrontar Dara sobre o bilhete (social; <em>Segredo que Pesa</em> +1 dado de Risco — Sucesso Parcial racha a fachada: <em>\"Depois da fronteira. Eu juro que conto tudo depois da fronteira.\"</em>).</li></ul><p><strong>Sucesso Espetacular</strong> (investigação): o jogador monta o quadro completo de uma facção inteira. <strong>Falha Crítica</strong>: a facção investigada percebe que foi percebida — a Cena 3 começa em posição pior.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE008Cena2.ExpZarJP008Cena2"
+    }
+  ],
+  "sort": 800000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE008Cena2"
+}

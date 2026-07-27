@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE010Cena4",
+  "name": "10 · Cena 4 — A Estepe e a Chama",
+  "pages": [
+    {
+      "_id": "ExpZarJP010Cena4",
+      "name": "Cena 4 — A Estepe e a Chama",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Cena 4 — A Estepe e a Chama</h1><p><em>Clímax: Lendário + dilema · 60–90 min · Objetivo: decidir o destino de Nadja — e sobreviver à decisão</em></p><h2>Descrição Geral</h2><p>O trem cruza a estepe mongol vazia rumo ao apeadeiro de Darkhan-Sur, onde monges da Ordem esperam com cavalos e um palanquim. Esta cena tem <strong>três motores simultâneos</strong>: (1) a <strong>revelação</strong> de Dara sobre o ritual; (2) o <strong>último lance das facções</strong>; (3) o <strong>Despertar chegando a 6</strong> — e com ele, A Sombra da Chama.</p><h2>A Revelação de Dara</h2><blockquote><p><em>\"O ritual de recepção não coroa a menina. Ele a <strong>esvazia</strong>. A Chama precisa de um cálice limpo — é assim que os textos dizem, um cálice limpo. A memória dela, o jeito que ela conta os buracos no gelo, o medo de escuro, o gosto por chocolate... tudo isso é impureza que o rito queima na primeira noite. O corpo continua. Anda, fala, abençoa. Mas Nadja...\"</em> — ela aperta o queimador de incenso até os nós dos dedos embranquecerem — <em>\"Nadja acaba na porta do mosteiro. Eu carreguei essa menina no colo por sete mil quilômetros sabendo disso. O Corvo também sabe. A dívida que ele quer quitar com a entrega... é a alma dele. Ele vendeu, há muito tempo, para algo atrás do Véu. A menina é o resgate.\"</em></p></blockquote><p><em>(Gabriel: é neste momento que o Trauma Pacto que Presenciou encaixa. O que ele viu no seminário, décadas atrás, era Vorona assinando. Dê ao jogador a cena de lembrar.)</em></p><h2>O Gatilho do Lendário</h2><p>Quando a violência alcançar Nadja — Yefrem irrompendo pela janela, Klein sacando o anel, o trem freando de emergência — o Despertar cruza o 6 e <strong>A Sombra da Chama se manifesta</strong>. A partir daí, todo o resto acontece dentro do confronto Lendário.</p><h2>As Opções Sobre a Mesa</h2><ol><li><strong>Cumprir o contrato:</strong> entregar Nadja ao ritual. As dívidas morrem (inclusive o voto de Gabriel). Vorona é salvo. Nadja, apagada. Os monges são gratos, corteses — e inegociáveis: <em>\"a Chama sem cálice é a Chama solta; perguntem à Mão Vazia o que isso custou nos séculos.\"</em></li><li><strong>Entregar ao Consórcio:</strong> Klein quita TODAS as dívidas + fortuna. Nadja vive... como ativo corporativo para sempre. (Se a mesa aceitar, deixe o gosto amargo: a última imagem é Nadja acenando atrás de um vidro fumê.)</li><li><strong>A tese da Mão Vazia:</strong> Yefrem, com a Vitalidade em farrapos, pode ser convencido a um meio-termo se (e só se) os jogadores descobriram tudo: o <em>Toque que Apaga</em>, sustentado longamente durante o rito, poderia suprimir a Chama sem apagar Nadja — uma heresia para ele e um sacrifício pessoal. É a rota social/mental mais difícil e a mais bonita.</li><li><strong>O terceiro caminho de Nadja (Plot B):</strong> se a Fase 3 da Sombra for zerada pela Fraqueza 1 — ou se o Despertar chegar a 6 com Nadja protegida e confiante — a Chama fala: <em>\"Perguntaram a ela o que ela quer?\"</em> Coabitação: Nadja continua Nadja, com uma segunda voz para o resto da vida. Sasha é a prova viva de que dá para viver assim. Vera pode provar aos monges que os textos foram mal traduzidos.</li><li><strong>Fugir com a menina:</strong> puxar o freio, tomar os cavalos, sumir na estepe. Todas as dívidas ativas (o voto de Gabriel vira Maldição imediata), três facções no encalço — e a campanha seguinte pronta.</li></ol><h2>Peças em Jogo no Clímax</h2><ul><li><strong>A Sombra da Chama</strong> — o Lendário (ver diário 05).</li><li><strong>Yefrem</strong> (Colosso ferido — Vit. 2–3 remanescente, Tag nova <em>Nada a Perder</em>): inimigo, ou a Fraqueza 2 ambulante.</li><li><strong>Klein</strong> (Adv. à Altura, Vit. 4 se intacta): sabotou o freio — crise paralela: ajudar Pyotr a parar o trem (<em>Máquina em Disparada</em> +1 dado de Risco) enquanto o Lendário acontece.</li><li><strong>5 Monges-Guardiões + Abade Tenzin-Khar:</strong> ortodoxos, mas não cruéis. Sucesso Espetacular social com o Abade: <em>\"Os textos dizem 'cálice limpo'. Os textos foram escritos por homens com medo. Talvez... tenhamos traduzido 'limpo' onde estava escrito 'inteiro'.\"</em> (deixa de Vera).</li></ul><h2>Encerramento</h2><p>Feche com a imagem, não com a mecânica: o trem parado no apeadeiro no meio do nada absoluto, o céu da estepe grande demais, e o que quer que a mesa tenha decidido caminhando (ou não) em direção aos cavalos.</p><p>Se Vorona reaparecer — a cavalo, no horizonte, como um borrão preto — ele não luta: ele <strong>pergunta o resultado</strong>, e paga o que sua palavra amarrou. O Corvo sempre paga. É a única coisa decente que restou nele.</p><p><strong>Epílogos individuais:</strong> 1 pergunta por jogador — <em>\"o que seu personagem faz com a dívida morta?\"</em></p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE010Cena4.ExpZarJP010Cena4"
+    }
+  ],
+  "sort": 1000000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE010Cena4"
+}

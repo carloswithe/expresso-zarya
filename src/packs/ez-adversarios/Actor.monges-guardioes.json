@@ -1,0 +1,39 @@
+{
+  "_id": "ExpZarAD007Monge",
+  "name": "Monges-Guardiões de Gandan-Sur (5 Ameaças)",
+  "type": "adversario",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "porte": "Ameaça ×5",
+    "vitalidade": 5,
+    "vida": {
+      "pontos": 5
+    },
+    "arma": "Cat. II (bastões) — trilha única: 1 quadrado por monge",
+    "tags": [
+      "Disciplina de Ferro",
+      "Lutam como Um"
+    ],
+    "fraquezas": [
+      "Obedecem o Abade — convencer o Abade Tenzin-Khar desarma todos de uma vez"
+    ],
+    "notas": "Cena 4. Não são vilões: são ortodoxos. Esperam em Darkhan-Sur com cavalos e palanquim. Se a mesa fugir com Nadja, perseguem; se negociar, escutam. O Abade Tenzin-Khar (não combatente) é a chave social: Sucesso Espetacular com ele pode revelar que 'cálice limpo' é erro de tradução de 'cálice inteiro'.",
+    "cena": "4"
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarAD007Monge"
+}

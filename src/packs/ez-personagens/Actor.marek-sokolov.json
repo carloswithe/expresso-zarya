@@ -1,0 +1,71 @@
+{
+  "_id": "ExpZarPJ001Marek",
+  "name": "Marek Sokolov",
+  "type": "personagem",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "nome": "Marek Sokolov",
+    "conceito": "Soldado lobisomem que caça o que caçou sua cidade",
+    "nivel": "2",
+    "ancestral": "Lobisomem",
+    "ancNotas": "Virtudes: Sentidos de Predador · Fúria da Fera | Vulnerabilidades: Instinto Indomável · Marcado pela Prata",
+    "arq": "Caçador",
+    "prof": "Militar",
+    "qualidades": [
+      "Mental|Sangue-Frio",
+      "",
+      "Física|Resistente",
+      "",
+      "Social|Voz de Comando",
+      "",
+      "Física|Reflexos Felinos",
+      ""
+    ],
+    "defeitos": [
+      "Mental|Teimoso",
+      "",
+      "Física|Ferimento Antigo",
+      "",
+      "Social|Frio e Distante",
+      ""
+    ],
+    "especialidades": [
+      "Combate contra o Maior",
+      "Conhecimento da Presa"
+    ],
+    "vicios": [
+      "Visão de Túnel",
+      "Atira Primeiro"
+    ],
+    "aprendizados": [
+      "Disciplina em Combate"
+    ],
+    "traumas": [
+      "Deixou Alguém para Trás"
+    ],
+    "equip": "Fuzil de caça desmontado em mala dupla (Cat. III) · Faca de combate (Cat. II) · Colete tático (Proteção 1) · Kit de campanha, corda, binóculos",
+    "protecao": "Colete tático (−1 contra balas e lâminas)",
+    "notas": "Credor: Elias Vorona (dívida de sangue). Klein sabe onde a família mora. A prata do restaurante corta dos dois lados.",
+    "vida": {
+      "pontos": 3
+    },
+    "itens": [],
+    "xp": 0
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarPJ001Marek"
+}

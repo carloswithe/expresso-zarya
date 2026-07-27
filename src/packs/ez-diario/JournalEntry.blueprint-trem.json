@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE004Trem0",
+  "name": "04 · O Trem: Blueprint",
+  "pages": [
+    {
+      "_id": "ExpZarJP004Trem0",
+      "name": "O Trem: Blueprint",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>O Trem: Blueprint</h1><p>Composição de 9 unidades. <strong>O trem é o mapa da aventura</strong> — cada vagão é uma \"sala\" com ecologia própria. Deslocamento em cena de ação: atravessar um vagão em combate = 1 ação de movimento. Portas entre vagões podem ser trancadas (<em>Porta Reforçada</em>: +1 dado de Risco para arrombar).</p><pre>[L] LOCOMOTIVA\n │   Maquinista Pyotr + foguista. Calor de fornalha, ruído ensurdecedor.\n │   Tag negativa *Ruído Ensurdecedor*: +1 dado de Risco em ações que\n │   dependam de ouvir ou falar.\n │\n[1] VAGÃO DE SERVIÇO / EQUIPAGEM\n │   Beliches da tripulação, gerador auxiliar, quadro elétrico do trem\n │   (sabotável: apagar TODAS as luzes), armário de ferramentas\n │   (pé-de-cabra, sinalizadores, machado de incêndio: Cat. II).\n │\n[2] PRIMEIRA CLASSE A  ← compartimento de Klein (2-C)\n │   4 cabines de luxo com fechadura. Corredor estreito, janelas amplas.\n │   Tapete abafa passos (*Passos Abafados*: +1 dado de Ação em furtividade).\n │\n[3] PRIMEIRA CLASSE B  ← jogadores + Nadja e Dara (3-B e 3-C)\n │   Idêntico ao [2]. A cabine 3-D está \"reservada e não ocupada\" —\n │   ótimo esconderijo... e quem a reservou é uma pista (Cena 2).\n │\n[4] VAGÃO-RESTAURANTE  ★ palco social da aventura\n │   12 mesas, bar, samovar de latão, piano desafinado. Cozinha nos\n │   fundos (facas, fogo, saída de serviço). Território neutro.\n │\n[5] CLASSE PADRÃO A — leitos abertos (platskart)\n │   ~40 passageiros. *Rosto na Multidão*: +1 dado de Ação para\n │   despistar. *Pânico de Multidão*: +1 dado de Risco em combate.\n │\n[6] CLASSE PADRÃO B — idem [5]\n │   Aqui viajam 3 dos 4 seguranças de Klein, espalhados.\n │\n[7] VAGÃO DE BAGAGEM\n │   Baús, gaiolas com galinhas, caixote com selo da Ordem (isca vazia).\n │   *Escuridão*: +1 dado de Risco. Esconderijos por toda parte.\n │\n[8] VAGÃO DE CARGA / CAUDA\n │   Porta lateral (fuga/abordagem), plataforma traseira externa.\n │   Carga amarrada com lonas — Proteção 1 improvisada. 2 cães de guarda.\n │\n── TETO ─────────────────────────────────────────────\n    Contínuo por todo o comboio. Vento, fuligem, gelo:\n    *Teto de Trem em Movimento*: +1 dado de Risco em TODA ação física;\n    +2 se estiver nevando. Yefrem ignora isso.</pre><h2>Geografia da Viagem</h2><pre>IRKUTSK ──── margem do BAIKAL ──── taiga ──── NAUSHKI (fronteira RU)\n Cena 1          Cena 2                            Cena 3\n──── SÜKHBAATAR (fronteira MN) ──── estepe aberta ──── DARKHAN-SUR\n                                        Cena 4         (destino)</pre><h2>Aliados a Bordo</h2><ul><li><strong>Iličev (Chefe de bordo)</strong> — burocrata cansado, sabe tudo de todos, teme perder o emprego. Subornável, aliado em potencial para abafar registros.</li><li><strong>Pyotr (Maquinista)</strong> — ranzinza, adora chá com conhaque e histórias, odeia paradas não programadas. Aliado na Cena 4 para parar o trem sabotado.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE004Trem0.ExpZarJP004Trem0"
+    }
+  ],
+  "sort": 400000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE004Trem0"
+}

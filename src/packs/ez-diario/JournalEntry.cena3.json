@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE009Cena3",
+  "name": "09 · Cena 3 — A Troca de Truques (Naushki)",
+  "pages": [
+    {
+      "_id": "ExpZarJP009Cena3",
+      "name": "Cena 3 — A Troca de Truques (Naushki)",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Cena 3 — A Troca de Truques (Naushki)</h1><p><em>Ação escalada · 60–75 min · Objetivo: sobreviver ao assalto — com o trem no ar</em></p><h2>Descrição Geral</h2><p>Na fronteira Rússia–Mongólia, a bitola dos trilhos muda, e <strong>o trem inteiro é içado em macacos hidráulicos, vagão por vagão, para a troca dos truques de rodas</strong>. Horas parado, de madrugada, num galpão de fronteira, passaportes recolhidos, passageiros proibidos de descer. É a janela perfeita — e a Mão Vazia sabe disso há semanas. Yefrem lidera o assalto pessoalmente. O trem suspenso a dois metros do chão transforma o mapa: teto virando ponte, vãos embaixo dos vagões virando túneis.</p><blockquote><p><strong>LER PARA OS JOGADORES:</strong></p><p>Naushki, duas da manhã. O Expresso Zarya entra rangendo num galpão do tamanho de uma catedral industrial, iluminado por holofotes de mercúrio que zumbem como vespas e deixam tudo com cor de cadáver. Soldados de fronteira recolhem os passaportes vagão por vagão, com aquele tédio armado de quem faz isso toda noite. E então o chão abandona vocês: com um estrondo hidráulico que sobe pela sola das botas, macacos de aço erguem o vagão inteiro — o trem todo — a dois metros do chão.</p><p>O vagão balança suavemente no ar, pendurado. O frio entra pelos caixilhos como água por um casco furado, e a respiração de vocês volta a virar fumaça — dentro do trem.</p><p>É Nadja quem percebe primeiro. Ela para de responder no meio de uma frase, inclina a cabeça como quem escuta um apito que ninguém mais alcança, e diz, baixinho, sem medo nenhum na voz — o que é muito pior: <em>\"Os descalços chegaram.\"</em></p><p>No mesmo instante, metade dos holofotes do galpão morre. Depois a outra metade.</p></blockquote><h2>Estrutura do Assalto (Três Ondas)</h2><p><strong>Onda 1 — O apagão e a infiltração:</strong> Kirill sabotou o quadro elétrico do galpão E o gerador do vagão 1. Escuridão quase total (<em>Escuridão</em> +1 dado de Risco geral; sinalizadores do vagão 1 anulam localmente). Dois bandos de zelotes entram por três pontos: plataforma traseira do vagão 8, janelas do vagão 5 (escadas de fora) e vão sob o trem suspenso. Os guardas de fronteira tratam QUALQUER pessoa armada como hostil (<em>Guardas em Pânico</em>: +1 dado de Risco perto deles).</p><p><strong>Onda 2 — Yefrem e a escolha:</strong> Yefrem entra pelo teto (descalço, no gelo, sem pressa) até o vagão 3 e <strong>oferece rendição uma única vez</strong>: <em>\"Eu não vim pela vida de vocês. Perguntem à irmã o que o mosteiro faz com receptáculos. Depois me digam quem aqui é o monstro.\"</em> Se recusarem (vão recusar), ele vem — Colosso, ficha no compêndio. O objetivo dele é tocar Nadja com o <em>Toque que Apaga</em>. <strong>Não luta até o fim:</strong> com Vitalidade em 2, recua: <em>\"Na estepe, então.\"</em></p><p><strong>E os seguranças de Klein?</strong> Defendem o trem — atirando nos zelotes. Não por bondade: a carga deles não pode morrer. Momento \"salvos pelo outro inimigo\" — e Klein cobrará na Cena 4.</p><p><strong>Onda 3 — O trem no ar:</strong> no auge do caos, o vagão 3 está semi-acoplado nos macacos — um zelote tenta soltar a trava hidráulica para derrubá-lo (com Nadja dentro). Rolagem de crise: impedir a queda (física, <em>Mecanismo Desconhecido</em> +1 dado de Risco) ou evacuar a cabine a tempo. Se o vagão cai: todos sofrem dano Menor Cat. II, Nadja entra em pânico → <strong>+2 Despertar</strong>, vidros do galpão inteiro trincam.</p><h2>Recursos Táticos do Cenário</h2><ul><li><strong>Vãos sob o trem suspenso:</strong> rotas furtivas (<em>Rastejar sob Toneladas Suspensas</em> +1 dado de Risco, mas evita todo combate de corredor).</li><li><strong>Macacos hidráulicos:</strong> liberar a pressão derruba meio vagão sobre inimigos embaixo — dano Máximo Cat. III em área (e possivelmente em inocentes).</li><li><strong>Correntes e talhas:</strong> balançar entre plataformas, içar, prender inimigos.</li><li><strong>Sinalizadores do vagão 1:</strong> anulam <em>Escuridão</em> localmente E cegam quem leva um no rosto (+1 dado de Risco por uma rodada).</li><li><strong>O samovar:</strong> água fervendo e chapa de latão escaldante — problema sério para um homem descalço (fraqueza de Yefrem).</li><li><strong>Cães do vagão 8:</strong> soltos, atacam os pés — e Yefrem está descalço (a única vez que ele xinga).</li><li><strong>Baixela de prata do restaurante:</strong> para Marek, tentação e perigo (<em>Marcado pela Prata</em> corta dos dois lados).</li></ul><h2>Fechamento</h2><p>Os soldados restauram a luz, encontram um trem avariado, corpos de \"bandidos\", e nenhuma explicação. Iličev (se aliado) abafa o registro. O trem cruza para Sükhbaatar com atraso, ao amanhecer. <strong>+1 Despertar automático.</strong></p><p>Dara, tremendo, finalmente diz: <em>\"Antes de Darkhan-Sur, vocês precisam saber a verdade. Toda ela.\"</em></p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE009Cena3.ExpZarJP009Cena3"
+    }
+  ],
+  "sort": 900000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE009Cena3"
+}

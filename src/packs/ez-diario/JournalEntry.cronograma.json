@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE012Crono",
+  "name": "12 · Cronograma de Mesa",
+  "pages": [
+    {
+      "_id": "ExpZarJP012Crono",
+      "name": "Cronograma de Mesa",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Cronograma de Mesa</h1><table><thead><tr><th>Bloco</th><th>Conteúdo</th><th>Tempo</th></tr></thead><tbody><tr><td>0</td><td>Fichas na mesa, resumo do sistema, ganchos de dívida lidos em voz alta</td><td>20–30 min</td></tr><tr><td>1</td><td>Cena 1 — O Embarque em Irkutsk</td><td>30–40 min</td></tr><tr><td>2</td><td>Cena 2 — A Véspera (Lago Baikal)</td><td>60–75 min</td></tr><tr><td>—</td><td><em>Pausa</em></td><td>10 min</td></tr><tr><td>3</td><td>Cena 3 — A Troca de Truques (Naushki)</td><td>60–75 min</td></tr><tr><td>4</td><td>Cena 4 — A Estepe e a Chama (Lendário + dilema)</td><td>60–90 min</td></tr><tr><td>5</td><td>Epílogos individuais: \"o que seu personagem faz com a dívida morta?\"</td><td>10–15 min</td></tr></tbody></table><p><strong>Total estimado:</strong> 3h40 – 5h15</p><h2>Válvulas de Tempo</h2><p><strong>Atrasado?</strong> Corte o evento opcional da Cena 2 (inspeção de documentos) e a Onda 3 de Naushki (vagão nos macacos); no clímax, rode a Sombra com <strong>duas Fases</strong> (pule a Fase 2).</p><p><strong>Adiantado?</strong> Adicione a inspeção de documentos na Cena 2, e na Cena 4 rode Klein E Yefrem em frentes simultâneas ao Lendário.</p><h2>Trilha de Despertar — Resumo Rápido</h2><table><thead><tr><th>Evento</th><th>+Despertar</th></tr></thead><tbody><tr><td>Violência perto de Nadja</td><td>+1</td></tr><tr><td>Medo intenso de Nadja</td><td>+1</td></tr><tr><td>Tentativa de contato hostil</td><td>+1</td></tr><tr><td>Fim da Cena 2 (automático)</td><td>+1</td></tr><tr><td>Fim da Cena 3 (automático)</td><td>+1</td></tr><tr><td>Vagão cai nos macacos + pânico</td><td>+2</td></tr><tr><td>Jogadores a acalmam ativamente</td><td>−1 (possível)</td></tr><tr><td>Despertar 6 sob terror</td><td>→ Sombra hostil</td></tr><tr><td>Despertar 6 protegida/confiante</td><td>→ Sombra contida</td></tr></tbody></table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE012Crono.ExpZarJP012Crono"
+    }
+  ],
+  "sort": 1200000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE012Crono"
+}

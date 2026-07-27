@@ -1,0 +1,39 @@
+{
+  "_id": "ExpZarAD003Kiril",
+  "name": "Irmão Kirill, o Infiltrado",
+  "type": "adversario",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "porte": "Ameaça",
+    "vitalidade": 2,
+    "vida": {
+      "pontos": 2
+    },
+    "arma": "Cat. II (machadinha de cozinha)",
+    "tags": [
+      "Silencioso como Neve",
+      "Rotas Decoradas"
+    ],
+    "fraquezas": [
+      "Devoção Cega — sacrifica qualquer vantagem para proteger ou obedecer Yefrem"
+    ],
+    "notas": "Cena 2–3. Embarcou como ajudante de cozinha; marcou as portas a giz. A cozinha já notou que ele não sabe cozinhar. Sabotou o quadro elétrico do galpão em Naushki (Cena 3). Pistas: pés descalços em botas dois números maiores; giz nas portas entre vagões.",
+    "cena": "2-3"
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarAD003Kiril"
+}

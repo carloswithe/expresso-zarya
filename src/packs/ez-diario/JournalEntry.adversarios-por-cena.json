@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE003Adver",
+  "name": "03 · Adversários por Cena",
+  "pages": [
+    {
+      "_id": "ExpZarJP003Adver",
+      "name": "Adversários por Cena",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Adversários por Cena</h1><p>Todos no padrão canônico: <strong>Porte / Vitalidade / Arma / Tags</strong>. Tags positivas do adversário geram dados de Risco para os jogadores; fraquezas concedem dados de Ação a quem as explorar.</p><hr /><h2>Cena 1 · Vigia da Mão Vazia</h2><p><strong>CAPANGA · Vitalidade 1 · Arma Cat. I</strong> (mãos nuas — não veio para lutar)</p><p><strong>Tags+:</strong> <em>Imóvel como Pedra</em> | <strong>Fraqueza:</strong> <em>Só Observa</em></p><p>O primeiro rosto da Mão Vazia. Confrontado, foge; encurralado, engole uma cápsula de cera com o relatório e desmaia. Deixa cair um <strong>rosário de contas queimadas</strong> — a pista que faz Dara empalidecer. (Psicometria de Zofia: dedos descalços na neve, uma lista de nomes de crianças, séculos dela.)</p><hr /><h2>Cena 2 · Seguranças de Klein (Bando ×4)</h2><p><strong>CAPANGA ×4 · Vitalidade 4 · Arma Cat. I</strong> (pistolas; Cat. III se sacadas — Klein proíbe)</p><p><strong>Tags+:</strong> <em>Coordenados por Rádio</em> · <em>Disfarces Ensaiados</em> | <strong>Fraqueza:</strong> <em>Sem Klein, Sem Iniciativa</em></p><p>Disfarces: comerciante de peles, dois \"engenheiros\", um bêbado quieto. Cada ponto de dano tira um da briga. Na Cena 3, defendem o trem contra os zelotes — salvam os PJs pelo motivo errado. Klein cobra esse favor na Cena 4.</p><hr /><h2>Cena 2 · Irmão Kirill, o Infiltrado</h2><p><strong>AMEAÇA · Vitalidade 2 · Arma Cat. II</strong> (machadinha de cozinha)</p><p><strong>Tags+:</strong> <em>Silencioso como Neve</em> · <em>Rotas Decoradas</em> | <strong>Fraqueza:</strong> <em>Devoção Cega</em></p><p>Embarcou como ajudante de cozinha; marcou as portas a giz. Sabota o quadro elétrico em Naushki. Sacrifica qualquer vantagem para obedecer Yefrem.</p><hr /><h2>Cena 2 · Marguerite Klein — Agente Sênior do Consórcio</h2><p><strong>ADVERSÁRIO À ALTURA · Vitalidade 4 · Arma Cat. I</strong> (pistola compacta — o perigo dela nunca foi a pistola)</p><p><strong>Item com Dom:</strong> <em>Anel-Agulha Sedativo</em> (Dom 2 / Maldição 1)</p><p><strong>Tags+:</strong> <em>Rosto de Mármore</em> · <em>Recursos Ilimitados</em> | <strong>Fraqueza:</strong> <em>A Carga Não Pode Morrer</em></p><p>Consultora de arte de Zurique, oficialmente. A oferta dela é real e desenhada para partir a mesa ao meio. Na Cena 4, sabotou o freio.</p><hr /><h2>Cena 3 · Zelotes da Mão Vazia (2 Bandos ×4)</h2><p><strong>CAPANGA ×8 · Vitalidade 8 · Arma Cat. II</strong> (facões, machadinhas)</p><p><strong>Tags+:</strong> <em>Fanatismo</em> · <em>Três Pontos de Entrada</em> | <strong>Fraqueza:</strong> <em>Sem Yefrem, Sem Rumo</em></p><p>Não recuam, não negociam. Entram por: plataforma traseira (vagão 8), janelas do vagão 5 e vão sob o trem suspenso. Objetivo: localizar Nadja, não vencer duelos.</p><hr /><h2>Cena 3 · Yefrem, o Descalço — Voz da Mão Vazia</h2><p><strong>COLOSSO · Vitalidade 5 · Arma Cat. II</strong> (bastão ferrado; Cat. III contra alvos do Véu)</p><p><strong>Item com Dom:</strong> <em>O Toque que Apaga</em> (Dom 3 / Maldição 2) — suprime o Véu por contato</p><p><strong>Tags+:</strong> <em>Fé de Ferro</em> · <em>Pés que Não Escorregam</em> | <strong>Fraquezas:</strong> <em>Descalço</em> · <em>Argumentável pela Verdade</em></p><p>Quer tocar Nadja com o Dom, não matar jogadores. Luta no teto sem penalidade. Não luta até o fim: com Vit. 2, recua (<em>\"Na estepe, então.\"</em>) — dano persiste para Cena 4. O samovar, cães e cacos de vidro são dados de Ação contra seus pés.</p><hr /><h2>Cena 4 · Monges-Guardiões de Gandan-Sur (5 Ameaças)</h2><p><strong>AMEAÇA ×5 · Vitalidade 5 · Arma Cat. II</strong> (bastões — 1 quadrado por monge)</p><p><strong>Tags+:</strong> <em>Disciplina de Ferro</em> · <em>Lutam como Um</em> | <strong>Fraqueza:</strong> <em>Obedecem o Abade</em></p><p>Não são vilões: são ortodoxos. Convencer o Abade Tenzin-Khar (<em>Sucesso Espetacular</em> social) desarma todos. O Abade pode revelar: <em>\"Os textos dizem 'cálice limpo'. Os textos foram escritos por homens com medo. Talvez... tenhamos traduzido 'limpo' onde estava escrito 'inteiro'.\"</em></p><blockquote><p><strong>Nota de retorno na Cena 4:</strong> Klein e Yefrem retornam com a Vitalidade que restou da Cena 3 — e com Tag nova <em>Nada a Perder</em> (+1 dado de Risco em ações sociais contra eles).</p></blockquote>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE003Adver.ExpZarJP003Adver"
+    }
+  ],
+  "sort": 300000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE003Adver"
+}

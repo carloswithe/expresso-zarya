@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE013Promp",
+  "name": "13 · Prompts de Imagem",
+  "pages": [
+    {
+      "_id": "ExpZarJP013Promp",
+      "name": "Prompts de Imagem",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Prompts de Imagem</h1><p>Para Midjourney / DALL-E / Stable Diffusion, em inglês. Seguindo o duotone Noite + roxo da identidade visual do sistema.</p><h2>Capa da Aventura</h2><blockquote><p>A weathered Trans-Siberian express train crossing a vast frozen steppe at dawn, seen from a low dramatic angle, steam and snow whipping off the roof, one window glowing with an unnatural soft blue flame among warm yellow windows, brooding violet-grey sky, cinematic wide shot, muted palette of black, white and deep purple, atmospheric urban-fantasy book cover style, film grain</p></blockquote><h2>Cena 1 — O Embarque</h2><blockquote><p>Night railway platform in Siberian winter, steam rising between an old express train and sodium lamps, a tall figure in a black cassock-like coat holding envelopes beside a large wooden crate with ventilation holes, silhouette watching from a metal footbridge above the tracks, cold cyan and sodium-orange lighting with deep purple shadows, cinematic thriller composition, 35mm film look</p></blockquote><h2>Cena 3 — O Assalto em Naushki</h2><blockquote><p>Interior of a colossal border railway shed at night, an entire passenger train lifted two meters on hydraulic jacks, mercury floodlights failing one by one, sparks and steam below the suspended carriages, hooded figures climbing between the undercarriage gaps, harsh chiaroscuro, black-white-purple palette, gritty industrial dark fantasy concept art</p></blockquote><h2>Cena 4 — A Sombra da Chama</h2><blockquote><p>Inside a vintage train carriage crossing an endless Mongolian steppe, a small child levitating in the aisle crowned by cold blue flame, frost blooming across the windows in mandala patterns, long wrong shadows bending toward her, adults shielding their eyes, ethereal and terrifying, cinematic supernatural climax, deep purple and white glow against darkness</p></blockquote><h2>Personagens — Sugestões de Estilo</h2><ul><li><strong>Marek Sokolov:</strong> weathered Eastern European soldier in his 40s, grey eyes, fur-lined military coat, haunted expression, night lighting, film noir style</li><li><strong>Zofia Lem:</strong> young woman with quick darting eyes, ceramic lock-picks at belt, thin leather gloves, faint luminescence around her fingertips, Prague urban noir</li><li><strong>Tomasz Reiner:</strong> middle-aged lawyer with faint sulfurous glow under formal coat, expensive but stained clothes, carrying worn leather briefcase, moral weight visible on face</li><li><strong>Vera Lindqvist:</strong> 30s Swedish librarian, thick-framed glasses, multiple notebooks and pens, surrounded by floating text she reads intently but can't touch</li><li><strong>Gabriel Ferreira:</strong> broad-shouldered Brazilian man in worn travel vestments, ancient bayonet at hip that seems to hum faintly, celestial light barely contained behind his eyes</li><li><strong>Sasha Baranova:</strong> pale reanimated paramedic with slightly wrong posture, amber eyes with two irises visible, paramedic bag always in hand, cold that doesn't bother her</li><li><strong>Nadja:</strong> 9-year-old girl with too-short choppy brown hair, oversized coat, holding a matryoshka with a missing inner doll, staring at you too long</li><li><strong>Yefrem, o Descalço:</strong> massive bearded man in rough pilgrim robes, bare feet on snow, serene expression despite the cold, one hand always slightly extended</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE013Promp.ExpZarJP013Promp"
+    }
+  ],
+  "sort": 1300000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE013Promp"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE005Lenda",
+  "name": "05 · O Lendário: A Sombra da Chama",
+  "pages": [
+    {
+      "_id": "ExpZarJP005Lenda",
+      "name": "A Sombra da Chama — Ficha Completa",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>A Sombra da Chama — O Lendário</h1><p><strong>Natureza:</strong> Eco defensivo de uma entidade encarnante — séculos de encarnações apagadas, medo acumulado de cálice em cálice, vestindo o pânico de uma menina de nove anos. A Sombra não quer conquistar nada. Quer que ninguém nunca mais toque nela.</p><blockquote><p><strong>Limiar:</strong> máx. 2 de dano por rolagem, salvo Fraqueza explorada — aí o dano é integral.<br/><strong>Presença:</strong> +1 dado de Risco automático (Fases 1–2) · +2 (Fase 3).<br/><strong>Retaliação:</strong> Falha Crítica do grupo = 1 Avanço da Agenda.</p></blockquote><h2>Fraquezas</h2><h3>1 · O Nome Dela</h3><p>Lembrar a Sombra de quem Nadja é fere com <strong>dano integral, ignorando o Limiar</strong>: memórias concretas e verdadeiras (o chocolate, a matrioska sem a boneca do meio, os buracos no gelo do Baikal, a pergunta <em>\"você já matou alguém?\"</em>). <strong>Rolagens sociais e mentais podem causar dano por esta via</strong> — cada ponto é alguém alcançando Nadja lá dentro. Mentiras e clichês NÃO funcionam e geram +1 dado de Risco.</p><h3>2 · O Toque que Apaga</h3><p>O Dom de Yefrem, sustentado em contato direto, <strong>quebra o Limiar por uma cena inteira</strong> e pode cancelar um Avanço da Agenda em curso. Custo: consome o que resta dos sentidos de Yefrem — e exige que alguém o convença ou o segure vivo para isso.</p><h2>Agenda (1 Avanço por Falha Crítica)</h2><ol><li><strong>O Frio da Fornalha</strong> — temperatura despenca; fornalha da locomotiva apaga; Tag de cena <em>Frio que Morde</em> (+1 dado de Risco em ações físicas) até o fim do confronto.</li><li><strong>O Coro dos Adormecidos</strong> — passageiros em transe caminham contra os jogadores (bando 4 Capangas, Vit. 1, Cat. I, Tag <em>Inocentes</em> — feri-los tem custo moral). Sasha é imune.</li><li><strong>A Primeira Lembrança Queima</strong> — a Sombra consome uma memória de Nadja (o mestre escolhe: rosto de Dara, gosto de chocolate, a matrioska). Cada uso da Fraqueza 1 depois disso fica mais difícil.</li><li><strong>Desfecho — O Cálice Racha</strong> — Nadja é apagada de dentro para fora e a Chama nasce selvagem sobre a estepe. A one-shot termina em derrota amarga — ou vira a primeira sessão de uma campanha de contenção.</li></ol><h2>As Três Fases</h2><h3>Fase 1 — O Véu de Geada · Vitalidade 4</h3><p><strong>Forma:</strong> o vagão inteiro é a manifestação: geada desenhando mandalas nas janelas, sombras compridas demais, o corredor mais longo do que deveria ser. Nadja no centro, imóvel, olhos fechados.</p><p><strong>Arma:</strong> Cat. II (estilhaços de vidro dirigidos, frio que queima)</p><p><strong>Tags+:</strong> <em>Presença Esmagadora</em> · <em>Não Deste Mundo</em></p><p><strong>Quando cai:</strong> o frio recua por um instante — Nadja abre os olhos, e eles são duas chamas azuis. Ela flutua. Vai para a Fase 2.</p><h3>Fase 2 — A Coroa de Fogo Frio · Vitalidade 5</h3><p><strong>Forma:</strong> Nadja levitando no corredor, coroada por uma chama azul que ilumina sem aquecer; a voz dela vem com uma segunda voz por baixo, dessincronizada.</p><p><strong>Arma:</strong> Cat. III (lanças de fogo frio, objetos arremessados pelo vagão)</p><p><strong>Proteção:</strong> <em>Escudo de Medo</em> (−1 em todo dano — <strong>ignorado pela Fraqueza 1</strong>)</p><p><strong>Tags+:</strong> <em>Fogo que Não Aquece</em> · <em>A Sala Obedece a Ela</em></p><p><strong>Quando cai:</strong> a chama engole a menina por inteiro — e o vagão deixa de ser um vagão. Vai para a Fase 3.</p><h3>Fase 3 — A Chama Nua · Vitalidade 4 · Presença +2</h3><p><strong>Forma:</strong> o interior do trem e a estepe se sobrepõem (neve caindo dentro do corredor, o chão de tábuas virando capim congelado); no centro, uma silhueta de fogo azul do tamanho de uma menina, com séculos de vozes.</p><p><strong>Arma:</strong> Cat. IV (a realidade local dobrando: gravidade, frio absoluto, memória)</p><p><strong>Tags+:</strong> <em>Muitas Vozes numa Boca</em> · <em>O Mundo Dobra ao Redor</em></p><p><strong>Derrota pela Fraqueza 1:</strong> zerar a Fase 3 com uma memória verdadeira → a Sombra recua como maré e a Terceira Chama fala: <em>\"Perguntaram a ela o que ela quer?\"</em> Abre-se a negociação e o terceiro caminho.</p><p><strong>Derrota por violência pura:</strong> também encerra o confronto — mas Nadja sofre quase-morte, a entidade recua ferida, e o rito do mosteiro parece a única opção. Vitória com gosto de derrota.</p><blockquote><p><strong>Nota para o Mestre:</strong> Se o Despertar chegar a 6 com Nadja protegida e confiante — rode apenas a Fase 1 encurtada (2–3 rolagens) e salte direto para a fala da Chama. Recompense a mesa que venceu a aventura antes do combate.</p></blockquote>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE005Lenda.ExpZarJP005Lenda"
+    }
+  ],
+  "sort": 500000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE005Lenda"
+}

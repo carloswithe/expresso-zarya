@@ -1,0 +1,70 @@
+{
+  "_id": "ExpZarPJ002Zofia",
+  "name": "Zofia Lem",
+  "type": "personagem",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "nome": "Zofia Lem",
+    "conceito": "Batedora de carteiras que lê o passado de tudo que rouba",
+    "nivel": "2",
+    "ancestral": "Férico",
+    "ancNotas": "Virtudes: Glamour · Passos Entre Véus | Vulnerabilidades: Alergia ao Ferro Frio · Incapaz de Mentir",
+    "arq": "Oráculo",
+    "prof": "Vigarista",
+    "qualidades": [
+      "Mental|Intuitivo",
+      "",
+      "Social|Lábia Rápida",
+      "",
+      "Física|Ágil",
+      "",
+      "Mental|Leitor de Pessoas",
+      ""
+    ],
+    "defeitos": [
+      "Mental|Impulsivo",
+      "",
+      "Social|Má Reputação",
+      "",
+      "Física|Franzino",
+      ""
+    ],
+    "especialidades": [
+      "Psicometria",
+      "Brecha na Névoa"
+    ],
+    "vicios": [
+      "Toque Perigoso",
+      "Visões Involuntárias"
+    ],
+    "aprendizados": [
+      "Golpes e Disfarces"
+    ],
+    "traumas": [
+      "Infância em Orfanato Cruel"
+    ],
+    "equip": "Gazuas de cerâmica (nada de ferro) · Luvas finas de couro · Baralho marcado · Canivete (Cat. II) · Três passaportes, nenhum bom",
+    "notas": "Credor: Elias Vorona (a carteira errada). Alergia a ferro frio: o trem inteiro é uma armadilha. Nadja fala a língua dos orfanatos.",
+    "vida": {
+      "pontos": 3
+    },
+    "itens": [],
+    "xp": 0
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarPJ002Zofia"
+}

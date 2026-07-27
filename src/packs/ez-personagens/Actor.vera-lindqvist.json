@@ -1,0 +1,70 @@
+{
+  "_id": "ExpZarPJ004Vera0",
+  "name": "Vera Lindqvist",
+  "type": "personagem",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "nome": "Vera Lindqvist",
+    "conceito": "Bibliotecária humana que sabe tudo sobre o Véu — e não sente nada dele",
+    "nivel": "2",
+    "ancestral": "Humano",
+    "ancNotas": "Virtudes: Adaptabilidade Impressionante · Invisível ao Sobrenatural | Vulnerabilidades: Frágil Diante do Impossível · Cega para o Oculto",
+    "arq": "Mago",
+    "prof": "Bibliotecário",
+    "qualidades": [
+      "Mental|Erudito",
+      "",
+      "Social|Bom Ouvinte",
+      "",
+      "Mental|Disciplinado",
+      "",
+      "Mental|Memória Prodigiosa",
+      ""
+    ],
+    "defeitos": [
+      "Social|Timidez Paralisante",
+      "",
+      "Física|Visão Fraca",
+      "",
+      "Mental|Distraído",
+      ""
+    ],
+    "especialidades": [
+      "Biblioteca Viva",
+      "Leitura de Grimórios"
+    ],
+    "vicios": [
+      "Curiosidade Proibida",
+      "Teoria Antes da Prática"
+    ],
+    "aprendizados": [
+      "Pesquisa em Acervos"
+    ],
+    "traumas": [
+      "Viu o Que Não Devia"
+    ],
+    "equip": "Caderno de campo cifrado · Óculos + óculos reserva · Lupa, giz, barbante e lanterna · Dicionário russo-mongol · Chá em quantidade",
+    "notas": "Credora de Elias Vorona (o livro que olhou de volta). Hipótese: 'cálice limpo' pode ser erro de tradução de 'cálice inteiro'.",
+    "vida": {
+      "pontos": 3
+    },
+    "itens": [],
+    "xp": 0
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarPJ004Vera0"
+}

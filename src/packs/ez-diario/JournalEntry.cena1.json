@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE007Cena1",
+  "name": "07 · Cena 1 — O Embarque em Irkutsk",
+  "pages": [
+    {
+      "_id": "ExpZarJP007Cena1",
+      "name": "Cena 1 — O Embarque em Irkutsk",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Cena 1 — O Embarque em Irkutsk</h1><p><em>Abertura in media res · 30–40 min · Objetivo: assumir a carga, partir vivo, descobrir Nadja</em></p><h2>Descrição Geral</h2><p>Nada de briefing. A cena abre com os seis <strong>já na plataforma 2 de Irkutsk, às 05h40, três minutos antes da partida</strong>, cada um chegando por um canto — eles não se conhecem, ou mal se conhecem, mas todos reconhecem o casaco preto de Vorona ao lado de um contêiner de madeira com furos de ventilação.</p><blockquote><p><strong>LER PARA OS JOGADORES:</strong></p><p>A plataforma 2 de Irkutsk cheira a diesel queimado, neve suja e ferro gelado — o tipo de frio que morde os dedos através das luvas e faz cada respiração sair como fumaça de cigarro. O alto-falante rosna algo em russo que ninguém entende inteiro, mas o número é claro: partida em três minutos. O Expresso Zarya estala e range ao longo do trilho como um animal impaciente, e o vapor que sobe dos freios embaça as poucas lâmpadas de sódio ainda acesas nessa madrugada.</p><p>Vocês seis convergem para o mesmo ponto da plataforma vindos de direções diferentes — e cada um reconhece, com aquele aperto atrás do esterno, o homem de casaco clerical preto parado ao lado de um contêiner de madeira do tamanho de um guarda-roupa deitado. Elias Vorona não sorri. Vorona nunca sorri. Ele apenas ergue a mão enluvada com seis envelopes pardos, como quem já sabia a ordem exata em que vocês chegariam.</p><p><em>\"A carga embarca no vagão três, cabine C. A irmã cuida do conteúdo; vocês cuidam de que nada nem ninguém chegue até ele. Entrega no apeadeiro de Darkhan-Sur, depois da fronteira. Quando a carga cruzar a porta do mosteiro\"</em> — ele encosta dois dedos no próprio peito, onde estaria um crucifixo que não está lá — <em>\"as dívidas de vocês morrem. Todas. Eu incluí os juros no meu perdão.\"</em></p><p>Atrás dele, uma mulher de hábito cinza empurra o contêiner rampa acima com a ajuda de dois carregadores. E é quando o apito do trem rasga a madrugada que um de vocês percebe: na passarela de metal sobre os trilhos, um vulto parado, imóvel demais para essa temperatura, observa o embarque — e leva alguma coisa à altura da boca. Um rádio. Ou uma prece.</p></blockquote><h2>Beats da Cena</h2><ol><li><strong>O contrato relâmpago</strong> (2 min): Vorona responde no máximo três perguntas, secamente. O que há no contêiner: <em>\"Uma responsabilidade.\"</em> Para Gabriel, há uma frase a mais, dita baixo: <em>\"Você lembra do que jurou. Eu lembro do que você viu.\"</em> Ele <strong>não embarca</strong>.</li><li><strong>O vigia</strong>: o vulto na passarela é o Vigia da Mão Vazia. Se algum jogador correr até lá (o trem está partindo!), ele se joga do outro lado e some — mas deixa cair um <strong>rosário de contas queimadas</strong>. Dara reconhece e empalidece. A Psicometria de Zofia no rosário: dedos descalços na neve, uma lista de nomes de crianças, séculos dela.</li><li><strong>A descoberta</strong>: no compartimento 3-C, Dara abre o contêiner — forrado, aquecido, com cobertores. <strong>Nadja sai de dentro esticando as pernas dormentes e perguntando se alguém tem chocolate.</strong> Dara corta protestos: <em>\"Ela viaja em cabine daqui em diante. A caixa era para a plataforma. Plataformas têm olhos.\"</em></li><li><strong>Primeiro sinal do Despertar</strong>: quando o trem contorna a primeira curva e Irkutsk some, todas as lâmpadas do corredor do vagão 3 <strong>piscam em sequência, da frente para trás</strong>, como uma onda. Nadja está olhando pela janela. Ela não fez nada. Provavelmente. (<em>Véspera</em>, a baioneta de Gabriel, canta baixinho pela primeira vez.)</li></ol><h2>Rolagens Prováveis</h2><ul><li>Embarcar o contêiner sob pressão de tempo (física; <em>Plataforma Congelada</em> +1 dado de Risco).</li><li>Perceber detalhes do vigia antes que suma (mental; distância e vapor +1 dado de Risco).</li><li>Ler as entrelinhas de Vorona ou de Dara (social; <em>Rosto de Quem Já Enterrou Muita Coisa</em> +1 dado de Risco).</li></ul><p><strong>Sucesso Espetacular</strong> em leitura: os carregadores foram pagos duas vezes — a segunda, por uma mulher de luvas finas (semente de Klein). <strong>Falha Crítica</strong>: o trem parte de qualquer jeito — mas um envelope com o contrato cai na plataforma; a Mão Vazia agora sabe nomes.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE007Cena1.ExpZarJP007Cena1"
+    }
+  ],
+  "sort": 700000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE007Cena1"
+}

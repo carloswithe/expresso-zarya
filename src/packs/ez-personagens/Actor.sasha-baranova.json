@@ -1,0 +1,70 @@
+{
+  "_id": "ExpZarPJ006Sasha",
+  "name": "Sasha Baranova",
+  "type": "personagem",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "nome": "Sasha Baranova",
+    "conceito": "Paramédica que morreu, voltou — e não voltou sozinha",
+    "nivel": "2",
+    "ancestral": "Reanimado",
+    "ancNotas": "Hóspede: entidade menor de limiar — guarda portas entre estados (vida/morte, dentro/fora) | Virtudes: Corpo Além da Dor · Já Estive do Outro Lado | Vulnerabilidades: Carne que Não Cura · Cheiro da Sepultura",
+    "arq": "Receptáculo",
+    "prof": "Paramédico",
+    "qualidades": [
+      "Mental|Paciente",
+      "",
+      "Social|Confiável",
+      "",
+      "Física|Mãos Firmes",
+      "",
+      "Física|Resistente",
+      ""
+    ],
+    "defeitos": [
+      "Mental|Pessimista",
+      "",
+      "Social|Forasteiro Eterno",
+      "",
+      "Física|Movimentos Rígidos",
+      ""
+    ],
+    "especialidades": [
+      "Âncora Estável",
+      "Conselho Interior"
+    ],
+    "vicios": [
+      "A Fronteira Afina",
+      "Fala em Duas Vozes"
+    ],
+    "aprendizados": [
+      "Primeiros Socorros"
+    ],
+    "traumas": [
+      "O Paciente que Perdeu"
+    ],
+    "equip": "Mochila de paramédica completa · Tesoura de trauma (Cat. I) · Kit de sutura industrial · Amônia, adrenalina, morfina · Luvas de nitrilo",
+    "notas": "Credora de Elias Vorona (a segunda vida). O hóspede fica inquieto perto de Nadja. Klein oferece uma 'extração'. Única pessoa que sabe na pele o que é dividir o corpo com outra coisa.",
+    "vida": {
+      "pontos": 3
+    },
+    "itens": [],
+    "xp": 0
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarPJ006Sasha"
+}

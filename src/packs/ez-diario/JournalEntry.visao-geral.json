@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE001Visao",
+  "name": "01 · Visão Geral do Mestre",
+  "pages": [
+    {
+      "_id": "ExpZarJP001Visao",
+      "name": "Visão Geral do Mestre",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Expresso Zarya — A Última Viagem da Chama</h1><p><em>Aventura one-shot · 6 jogadores · 3–5 horas · Moscou → Irkutsk → Naushki → Darkhan-Sur</em></p><h2>Sinopse</h2><p>Seis devedores de <strong>Elias Vorona, o Corvo</strong> — um veterano ex-religioso que coleciona dívidas como outros colecionam relíquias — são convocados para quitar suas contas de uma só vez: escoltar uma \"carga\" no trecho final do Expresso Zarya, de <strong>Irkutsk (Rússia)</strong> até um apeadeiro remoto nas estepes da <strong>Mongólia</strong>, de onde ela seguirá ao <strong>Mosteiro de Gandan-Sur</strong>.</p><p>A carga é <strong>Nadja</strong>, uma menina de 9 anos — o receptáculo perfeito de <strong>A Terceira Chama</strong>, uma entidade que atravessa o Véu encarnando a cada geração num corpo humano. Vorona e a <strong>Irmã Dara</strong>, religiosa da Ordem da Chama Silenciosa, trouxeram a menina da Europa Central até aqui por rotas discretas. Mas o anonimato acabou — duas facções farejaram a trilha, e o trecho final é território aberto demais para sutileza.</p><p>Durante a viagem, os jogadores enfrentarão <strong>O Consórcio</strong> (que quer a menina viva, para canalizar a entidade sob controle corporativo) e <strong>A Mão Vazia</strong> (que quer a menina morta, para que a entidade jamais reencarne) — enquanto a própria Nadja <strong>desperta</strong>. No clímax, se o medo vencer, o que desperta nela toma forma: <strong>A Sombra da Chama</strong>, um adversário Lendário completo.</p><h2>Estrutura (1-2-1)</h2><table><thead><tr><th>Cena</th><th>Nome</th><th>Tipo</th><th>Duração</th></tr></thead><tbody><tr><td>1</td><td>O Embarque em Irkutsk</td><td>Abertura in media res</td><td>30–40 min</td></tr><tr><td>2</td><td>A Véspera (Lago Baikal)</td><td>Social / Investigação</td><td>60–75 min</td></tr><tr><td>3</td><td>A Troca de Truques (Naushki)</td><td>Ação escalada</td><td>60–75 min</td></tr><tr><td>4</td><td>A Estepe e a Chama</td><td>Clímax: Lendário + dilema</td><td>60–90 min</td></tr></tbody></table><h2>A Trilha de Despertar</h2><p>A pressão de tempo <strong>não é o ponteiro do relógio — é a menina</strong>. Use uma trilha de <strong>0 a 6 pontos de Despertar</strong>, visível só para o mestre.</p><p><strong>+1</strong> sempre que Nadja presenciar violência de perto, sentir medo intenso, ou alguém tentar tocá-la com intenção hostil. <strong>+1 automático</strong> ao final das cenas 2 e 3.</p><table><thead><tr><th>Nível</th><th>Manifestação</th><th>Efeito Mecânico</th></tr></thead><tbody><tr><td>0–1</td><td>Sutil: lâmpadas piscam, chá esfria rápido, cães uivam</td><td>Nenhum</td></tr><tr><td>2–3</td><td>Perceptível: objetos de metal vergam; sonhos acordados com chama azul</td><td>Tag negativa <em>Presença Inquietante</em> → +1 dado de Risco em ações sociais perto de Nadja</td></tr><tr><td>4–5</td><td>Aberta: vidros trincam, sombras erradas, sangramentos pelo nariz</td><td><em>Presença Inquietante</em> vale para TODAS as ações perto dela; 1×/cena, um guardião recebe +1 dado de Ação</td></tr><tr><td>6</td><td><strong>A Sombra da Chama se manifesta</strong></td><td>Ver Cena 4 e diário do Lendário</td></tr></tbody></table><blockquote><p><strong>Regra de Ouro:</strong> O Despertar nunca \"estoura\" antes da Cena 4. Se a trilha chegar a 6 cedo, segure em 5. <strong>Como ele chega a 6 importa:</strong> aterrorizada e cercada de violência → a Sombra nasce hostil (confronto Lendário completo); protegida e confiante → a Sombra nasce contida (Fase 1 breve + negociação).</p></blockquote><h2>Tom</h2><p>Orient Express sujo de fuligem: intriga de compartimento fechado + ação crua de trem em movimento. A janela é o termômetro: quanto mais a paisagem se esvazia (cidade → taiga → lago congelado → estepe), mais fino o Véu, mais perto a Chama.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE001Visao.ExpZarJP001Visao"
+    }
+  ],
+  "sort": 100000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE001Visao"
+}

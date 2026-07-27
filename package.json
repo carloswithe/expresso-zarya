@@ -1,0 +1,16 @@
+{
+  "name": "expresso-zarya",
+  "version": "1.0.0",
+  "description": "Expresso Zarya — build tooling for Foundry VTT v12 packs",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "clean": "node -e \"const fs=require('fs');['ez-personagens','ez-adversarios','ez-itens','ez-diario'].forEach(p=>{try{fs.rmSync('packs/'+p,{recursive:true})}catch(e){}});\""
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.7"
+  },
+  "allowScripts": {
+    "classic-level@1.4.1": true
+  }
+}

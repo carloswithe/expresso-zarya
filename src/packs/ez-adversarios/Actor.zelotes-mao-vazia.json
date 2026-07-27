@@ -1,0 +1,39 @@
+{
+  "_id": "ExpZarAD005Zelot",
+  "name": "Zelotes da Mão Vazia (2 Bandos ×4)",
+  "type": "adversario",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "porte": "Capanga ×8 (2 Bandos de 4)",
+    "vitalidade": 8,
+    "vida": {
+      "pontos": 8
+    },
+    "arma": "Cat. II (facões, machadinhas)",
+    "tags": [
+      "Fanatismo",
+      "Três Pontos de Entrada"
+    ],
+    "fraquezas": [
+      "Sem Yefrem, Sem Rumo — se Yefrem cai ou recua, a coordenação desmorona"
+    ],
+    "notas": "Cena 3. Não recuam, não negociam. Corte para 6 capangas se o tempo apertar. Objetivo: localizar Nadja, não vencer duelos. Entram por: plataforma traseira do vagão 8, janelas do vagão 5 (escadas externas) e vão sob o trem suspenso. Guardam de fronteira tratam QUALQUER pessoa armada como hostil.",
+    "cena": "3"
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarAD005Zelot"
+}

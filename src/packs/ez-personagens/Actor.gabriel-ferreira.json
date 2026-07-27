@@ -1,0 +1,79 @@
+{
+  "_id": "ExpZarPJ005Gabri",
+  "name": "Gabriel Ferreira",
+  "type": "personagem",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "nome": "Gabriel Ferreira",
+    "conceito": "Ex-noviço celestial que jurou servir até que a chama se apague",
+    "nivel": "2",
+    "ancestral": "Celestial",
+    "ancNotas": "Voto Inquebrantável: servir Elias Vorona \"até que a chama se apague\" | Virtudes: Aura de Graça · Toque Restaurador | Vulnerabilidades: Farol no Escuro · Voto Inquebrantável",
+    "arq": "Arma Juramentada",
+    "prof": "Líder Religioso",
+    "qualidades": [
+      "Mental|Vontade de Ferro",
+      "",
+      "Social|Empático",
+      "",
+      "Física|Presença Imponente",
+      "",
+      "Social|Diplomata",
+      ""
+    ],
+    "defeitos": [
+      "Mental|Indeciso",
+      "",
+      "Social|Submisso",
+      "",
+      "Física|Pesado",
+      ""
+    ],
+    "especialidades": [
+      "Postura do Sentinela",
+      "Arma que Sussurra"
+    ],
+    "vicios": [
+      "Preso ao Juramento",
+      "Honra Antes da Razão"
+    ],
+    "aprendizados": [
+      "Ritos e Aconselhamento"
+    ],
+    "traumas": [
+      "Pacto que Presenciou"
+    ],
+    "equip": "Véspera (baioneta consagrada, Cat. II) · Hábito de viagem reforçado · Breviário anotado · Frasco de óleo de unção · Corda de sino do seminário",
+    "notas": "Credor: Elias Vorona (voto perpétuo). O que Gabriel viu no porão do seminário era Vorona assinando o próprio pacto. Véspera emite um zumbido baixo diante de mentiras.",
+    "vida": {
+      "pontos": 3
+    },
+    "itens": [
+      {
+        "nome": "Véspera, a baioneta consagrada (1917)",
+        "nivel": "1",
+        "dadivas": [
+          "Canta Diante de Mentiras (um zumbido baixo que só o portador nota)"
+        ],
+        "maldicoes": []
+      }
+    ],
+    "xp": 0
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarPJ005Gabri"
+}

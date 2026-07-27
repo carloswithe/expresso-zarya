@@ -1,0 +1,48 @@
+{
+  "id": "expresso-zarya",
+  "title": "Expresso Zarya — A Última Viagem da Chama",
+  "description": "Módulo de aventura one-shot para A Cidade Sob o Véu. Seis devedores de Elias Vorona precisam escoltar uma criança através da Sibéria num trem atacado por duas facções — enquanto algo dentro da menina acorda.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Carlos"
+    }
+  ],
+  "systems": ["cidade-sob-o-veu"],
+  "packs": [
+    {
+      "name": "ez-personagens",
+      "label": "Expresso Zarya — Personagens",
+      "path": "packs/ez-personagens",
+      "type": "Actor",
+      "system": "cidade-sob-o-veu"
+    },
+    {
+      "name": "ez-adversarios",
+      "label": "Expresso Zarya — Adversários",
+      "path": "packs/ez-adversarios",
+      "type": "Actor",
+      "system": "cidade-sob-o-veu"
+    },
+    {
+      "name": "ez-itens",
+      "label": "Expresso Zarya — Itens com Dom",
+      "path": "packs/ez-itens",
+      "type": "Item",
+      "system": "cidade-sob-o-veu"
+    },
+    {
+      "name": "ez-diario",
+      "label": "Expresso Zarya — Diário",
+      "path": "packs/ez-diario",
+      "type": "JournalEntry"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/carloswithe/expresso-zarya/main/module.json",
+  "download": "https://github.com/carloswithe/expresso-zarya/releases/download/v1.0.0/expresso-zarya.zip",
+  "flags": {}
+}

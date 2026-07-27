@@ -1,0 +1,70 @@
+{
+  "_id": "ExpZarPJ003Tomas",
+  "name": "Tomasz Reiner",
+  "type": "personagem",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "nome": "Tomasz Reiner",
+    "conceito": "Advogado infernal que assinou em branco para a pessoa errada",
+    "nivel": "2",
+    "ancestral": "Ínfero",
+    "ancNotas": "Virtudes: Língua de Enxofre · Carne do Abismo | Vulnerabilidades: Estigma Infernal · Preso à Palavra Dada",
+    "arq": "Maculado",
+    "prof": "Advogado",
+    "qualidades": [
+      "Mental|Leitor de Pessoas",
+      "",
+      "Social|Negociador",
+      "",
+      "Mental|Memória Prodigiosa",
+      "",
+      "Social|Mentiroso Convincente",
+      ""
+    ],
+    "defeitos": [
+      "Social|Arrogante",
+      "",
+      "Mental|Obsessivo",
+      "",
+      "Física|Fôlego Curto",
+      ""
+    ],
+    "especialidades": [
+      "Escrita de Contrato",
+      "Colheita de Segredos"
+    ],
+    "vicios": [
+      "Cláusulas Ocultas",
+      "A Conta Sempre Chega"
+    ],
+    "aprendizados": [
+      "Contratos e Brechas"
+    ],
+    "traumas": [
+      "Falência que Arrastou Todos"
+    ],
+    "equip": "Pasta de couro com contratos · Caneta-tinteiro do avô · Pistola compacta (Cat. III) · Frasco de antiácido",
+    "notas": "Credor: Elias Vorona (assinatura em branco). Klein tem uma cópia do contrato.",
+    "vida": {
+      "pontos": 3
+    },
+    "itens": [],
+    "xp": 0
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarPJ003Tomas"
+}

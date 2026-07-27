@@ -1,0 +1,39 @@
+{
+  "_id": "ExpZarAD002Segur",
+  "name": "Seguranças de Klein (Bando ×4)",
+  "type": "adversario",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "porte": "Capanga ×4 (Bando)",
+    "vitalidade": 4,
+    "vida": {
+      "pontos": 4
+    },
+    "arma": "Cat. I (pistolas com supressor; Cat. III se sacadas abertamente — Klein proíbe)",
+    "tags": [
+      "Coordenados por Rádio",
+      "Disfarces Ensaiados"
+    ],
+    "fraquezas": [
+      "Sem Klein, Sem Iniciativa — sem ordens diretas dela, não agem por conta própria"
+    ],
+    "notas": "Cena 2–4. Disfarces: comerciante de peles, dois 'engenheiros de minas', um bêbado quieto. Cada ponto de dano tira um da briga. Nunca comem no mesmo horário. Objetivo: proteger a carga viva. Defendem o trem na Cena 3 — atirando nos zelotes. Retornam na Cena 4 com Tag nova Nada a Perder (+1 dado de Risco em ações sociais).",
+    "cena": "2-4"
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarAD002Segur"
+}

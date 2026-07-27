@@ -1,0 +1,43 @@
+{
+  "_id": "ExpZarAD006Yefre",
+  "name": "Yefrem, o Descalço",
+  "type": "adversario",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "porte": "Colosso",
+    "vitalidade": 5,
+    "vida": {
+      "pontos": 5
+    },
+    "arma": "Cat. II (bastão ferrado) · Degrau Contextual: Cat. III contra alvos tocados pelo Véu",
+    "tags": [
+      "Fé de Ferro",
+      "Pés que Não Escorregam"
+    ],
+    "fraquezas": [
+      "Descalço — os pés são o alvo (cães, cacos de vidro, chapa aquecida do samovar: dados de Ação para os jogadores)",
+      "Argumentável pela Verdade — imune a intimidação e suborno, MAS quem souber do Plot A pode travar diálogo real com ele"
+    ],
+    "itensComDom": [
+      "Toque que Apaga (Dom 3: o toque suprime manifestações do Véu, inclusive as de Nadja; Maldição 2: não sente mais calor, gosto nem afeto)"
+    ],
+    "notas": "Cena 3–4. Voz da Mão Vazia. Quer tocar Nadja com o Toque que Apaga — suprimi-la e executá-la sem manifestação. Luta no teto do trem sem penalidade. Não luta até o fim na Cena 3: com Vitalidade em 2, recua ('Na estepe, então.'). Retorna na Cena 4 com dano persistente e Tag Nada a Perder.",
+    "cena": "3-4"
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ExpZarAD006Yefre"
+}

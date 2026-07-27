@@ -1,0 +1,35 @@
+{
+  "_id": "ExpZarIT002Anel0",
+  "name": "Anel-Agulha Sedativo",
+  "type": "mitem",
+  "img": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
+  "system": {
+    "nome": "Anel-Agulha Sedativo",
+    "nivel": 2,
+    "categoria": "Cat. I (arranhão)",
+    "dadivas": [
+      "Sedação Discreta — um arranhão da luva direita força teste contra sono imediato; o alvo não sente o contato até já estar semiconsciente",
+      "Precisão Cirúrgica — a agulha não deixa marca visível a olho nu"
+    ],
+    "maldicoes": [
+      "O Anel Sussurra à Noite — a portadora ouve vozes dos sedados enquanto dorme; noites acumuladas sem descanso real"
+    ],
+    "portador": "Marguerite Klein",
+    "notas": "Dom 2, Maldição 1. Klein usa luva direita de couro fino para disfarçar o mecanismo. Particularmente perigoso combinado com Recursos Ilimitados — ela pode sedatar um alvo socialmente antes de fisicamente agir."
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "folder": null,
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ExpZarIT002Anel0"
+}

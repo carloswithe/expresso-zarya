@@ -1,0 +1,36 @@
+{
+  "_id": "ExpZarJE002Elenc",
+  "name": "02 · Elenco Central",
+  "pages": [
+    {
+      "_id": "ExpZarJP002Elenc",
+      "name": "Elenco Central",
+      "type": "text",
+      "sort": 100000,
+      "text": {
+        "content": "<h1>Elenco Central</h1><h2>Elias Vorona, \"O Corvo\" — o Credor</h2><p><strong>Aparência:</strong> 60 e muitos anos, casaco clerical preto sem colarinho, cicatriz de queimadura subindo do pescoço à orelha esquerda, anel de sinete com um pássaro. Voz baixa que ninguém pede para repetir.</p><p><strong>Quem é:</strong> ex-padre excomungado que descobriu o Véu tarde demais e caro demais. Hoje coleciona dívidas — dinheiro, favores, votos — de gente dos dois lados do Véu.</p><p><strong>O que quer:</strong> entregar Nadja ao mosteiro e quitar <strong>a própria dívida</strong> — a maior de todas (Plot Secreto A).</p><p><strong>Onde está:</strong> <strong>não embarca.</strong> Entrega a carga na plataforma de Irkutsk e fica para trás, cobrindo a retaguarda. Pode reaparecer no epílogo, a cavalo no horizonte — pergunta o resultado e paga o que sua palavra amarrou.</p><p><strong>Tags:</strong> <em>Palavra que Amarra</em> · <em>Olhos em Toda Parte</em></p><hr /><h2>Irmã Dara — a Agente da Ordem</h2><p><strong>Aparência:</strong> 40 anos, hábito cinza de corte incomum, mãos calejadas, um pequeno queimador de incenso de latão no cinto.</p><p><strong>Quem é:</strong> religiosa da <strong>Ordem da Chama Silenciosa</strong>, guardiã designada de Nadja desde Praga. Exausta, vigilante, e genuinamente afeiçoada à criança — o que é o problema dela.</p><p><strong>O que quer:</strong> <em>oficialmente</em>, entregar Nadja ao ritual. <em>Na verdade</em>, sabe o que o ritual faz (Plot Secreto A) e está em colapso moral silencioso.</p><p><strong>Como reage:</strong> coopera, cuida de Nadja, mas <strong>mente por omissão</strong>. Confrontada com provas ou apelo sincero (Sucesso Parcial ou melhor), racha e conta a verdade.</p><p><strong>Tags:</strong> <em>Serenidade Treinada</em> · <em>Latim, Sânscrito e Coisas Piores</em> | <em>Segredo que Pesa</em> (negativa)</p><p><strong>Se virar combatente:</strong> Adversário à Altura — Vitalidade 3 · Arma Cat. II (bastão de peregrina) · fraqueza: <em>Não Fere Quem Nadja Ama</em>.</p><hr /><h2>Nadja — a Carga</h2><p><strong>Aparência:</strong> 9 anos, cabelo castanho curto e mal cortado (disfarce), casaco duas vezes maior que ela, carrega uma matrioska sem a boneca do meio. Olha as pessoas por tempo demais.</p><p><strong>Quem é:</strong> órfã de Praga, identificada há um ano como o receptáculo perfeito da Terceira Chama. Sabe que \"vai virar outra pessoa\" no fim da viagem. Tem medo. Não conta para ninguém.</p><p><strong>Como reage:</strong> desconfiada; testa os jogadores (esconde-se, pergunta <em>\"você já matou alguém?\"</em>). Afeiçoa-se a quem for honesto. <strong>Detecta mentiras</strong> — não magicamente: como criança criada em orfanato.</p><p><strong>Tag negativa:</strong> <em>A Chama Espreita</em> — mentiras diretas contadas <strong>a ela</strong> dão +1 dado de Risco (a Chama não gosta de mentiras; ninguém sabe disso ainda).</p><p><strong>Mecânica:</strong> Nadja é a Trilha de Despertar ambulante. Nunca é uma arma que os jogadores disparam; é um risco que eles protegem.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ExpZarJE002Elenc.ExpZarJP002Elenc"
+    }
+  ],
+  "sort": 200000,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "cidade-sob-o-veu",
+    "systemVersion": "0.1.6",
+    "coreVersion": "12.331",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!journal!ExpZarJE002Elenc"
+}
