@@ -4,23 +4,55 @@
   "type": "adversario",
   "img": "icons/svg/skull.svg",
   "system": {
-    "porte": "Capanga ×4 (Bando)",
-    "vitalidade": 4,
-    "vida": {
-      "pontos": 4
+    "porte": "Capanga",
+    "vitalidade": {
+      "max": 4,
+      "atual": 4
     },
-    "arma": "Cat. I (pistolas com supressor; Cat. III se sacadas abertamente — Klein proíbe)",
-    "tags": [
-      "Coordenados por Rádio",
-      "Disfarces Ensaiados"
-    ],
-    "fraquezas": [
-      "Sem Klein, Sem Iniciativa — sem ordens diretas dela, não agem por conta própria"
-    ],
-    "notas": "Cena 2–4. Disfarces: comerciante de peles, dois 'engenheiros de minas', um bêbado quieto. Cada ponto de dano tira um da briga. Nunca comem no mesmo horário. Objetivo: proteger a carga viva. Defendem o trem na Cena 3 — atirando nos zelotes. Retornam na Cena 4 com Tag nova Nada a Perder (+1 dado de Risco em ações sociais).",
-    "cena": "2-4"
+    "categoriaArma": "I",
+    "protecao": "",
+    "comoAparece": "<p>Cenas 2–4. Quatro disfarces impecáveis: comerciante de peles, dois 'engenheiros de minas' e um bêbado quieto no corredor. Nunca comem no mesmo horário. Klein proíbe uso aberto de armas — pistolas com supressor apenas. Pistas: nunca fazem contato visual entre si, dormem em turnos de quatro horas.</p>",
+    "comoLuta": "<p>Coordenados por rádio: agem em pares, cobrem rotas de saída antes de agir. Cada ponto de dano na trilha tira um da briga. Na Cena 3, atiraram contra os zelotes — defenderam o trem. Retornam na Cena 4 com Tag extra <em>Nada a Perder</em> (+1 dado de Risco em ações sociais). Fraqueza: <em>Sem Klein, Sem Iniciativa</em> — sem ordens diretas, não agem por conta própria.</p>",
+    "descricao": "<p>Objetivo primário: proteger a carga viva (Nadja). Nunca prejudicam a menina independentemente das ordens. A Cat. I representa operações discretas; se Klein autorizar ação aberta, tratam como Cat. III. Representam 4 pontos de vitalidade — cada ponto eliminado remove um seguranças.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZSegT0100000000",
+      "name": "Coordenados por Rádio",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Compartilham informação em tempo real — um seguranças pode usar o que outro viu há 30 segundos.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD002Segur.EZSegT0100000000"
+    },
+    {
+      "_id": "EZSegT0200000000",
+      "name": "Disfarces Ensaiados",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Constroem coberturas críveis com documentos e comportamento ensaiado — difíceis de identificar sem motivo claro.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD002Segur.EZSegT0200000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

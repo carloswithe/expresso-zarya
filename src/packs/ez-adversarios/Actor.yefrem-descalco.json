@@ -5,26 +5,89 @@
   "img": "icons/svg/skull.svg",
   "system": {
     "porte": "Colosso",
-    "vitalidade": 5,
-    "vida": {
-      "pontos": 5
+    "vitalidade": {
+      "max": 5,
+      "atual": 5
     },
-    "arma": "Cat. II (bastão ferrado) · Degrau Contextual: Cat. III contra alvos tocados pelo Véu",
-    "tags": [
-      "Fé de Ferro",
-      "Pés que Não Escorregam"
-    ],
-    "fraquezas": [
-      "Descalço — os pés são o alvo (cães, cacos de vidro, chapa aquecida do samovar: dados de Ação para os jogadores)",
-      "Argumentável pela Verdade — imune a intimidação e suborno, MAS quem souber do Plot A pode travar diálogo real com ele"
-    ],
-    "itensComDom": [
-      "Toque que Apaga (Dom 3: o toque suprime manifestações do Véu, inclusive as de Nadja; Maldição 2: não sente mais calor, gosto nem afeto)"
-    ],
-    "notas": "Cena 3–4. Voz da Mão Vazia. Quer tocar Nadja com o Toque que Apaga — suprimi-la e executá-la sem manifestação. Luta no teto do trem sem penalidade. Não luta até o fim na Cena 3: com Vitalidade em 2, recua ('Na estepe, então.'). Retorna na Cena 4 com dano persistente e Tag Nada a Perder.",
-    "cena": "3-4"
+    "categoriaArma": "II",
+    "protecao": "",
+    "comoAparece": "<p>Cenas 3–4. Homem de dois metros sem sapatos, mesmo no inverno. Bastão ferrado que usa como cajado de caminhada. Voz calma e precisa — não grita, não insulta, não ameaça sem intenção de cumprir. Cada passo seu é deliberado. Conhece o teto do trem melhor que o interior.</p>",
+    "comoLuta": "<p>Bastão ferrado (Cat. II); contra alvos tocados pelo Véu, o impacto é Cat. III — o bastão foi abençoado por um rito antigo. Luta no teto do trem sem penalidade de equilíbrio. Na Cena 3, não leva ao fim: com Vitalidade em 2, recua — <em>'Na estepe, então.'</em> Retorna na Cena 4 com dano persistente e Tag <em>Nada a Perder</em>. Fraqueza 1: <em>Descalço</em> — os pés são o alvo (cães, cacos de vidro, chapa aquecida do samovar). Fraqueza 2: <em>Argumentável pela Verdade</em> — imune a intimidação e suborno, MAS quem souber do Plot A (origem da Mão Vazia, o rito original) pode travar diálogo real com ele.</p>",
+    "descricao": "<p>Usa o Toque que Apaga (item com dom) — o toque da mão suprime manifestações do Véu por contato direto, inclusive as de Nadja. Se convencido de que o rito do mosteiro é erro de tradução, considera. Não é cruel — é convicto. A diferença importa para quem quer salvá-lo. Seus três dons: <em>Supressão do Véu</em>, <em>Extinção de Manifestação</em>, <em>Alcance Sobrenatural</em>. Suas duas maldições: <em>O Silêncio dos Sentidos</em>, <em>O Preço Acumulado</em>.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZYefT0100000000",
+      "name": "Fé de Ferro",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Medo sobrenatural, encantamentos de intimidação e coerção psíquica simplesmente não funcionam — há algo por baixo da fé que o ancorou além do alcance do Véu.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD006Yefre.EZYefT0100000000"
+    },
+    {
+      "_id": "EZYefT0200000000",
+      "name": "Pés que Não Escorregam",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Equilíbrio sobre qualquer superfície instável — teto de trem em movimento, gelo, escombros — como se os pés lessem o terreno diretamente.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD006Yefre.EZYefT0200000000"
+    },
+    {
+      "_id": "EZYefM0100000000",
+      "name": "Toque que Apaga",
+      "type": "mitem",
+      "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+      "system": {
+        "descricao": "<p>Não é um objeto — é o dom acumulado em suas mãos por décadas de rito. O toque direto de Yefrem suprime qualquer manifestação do Véu por contato sustentado. Em Nadja, apagaria a Chama de dentro para fora. O custo acumulado já lhe tomou calor, gosto e afeto.</p>",
+        "dadivas": [
+          {
+            "nome": "Supressão do Véu"
+          },
+          {
+            "nome": "Extinção de Manifestação"
+          },
+          {
+            "nome": "Alcance Sobrenatural"
+          }
+        ],
+        "maldicoes": [
+          {
+            "nome": "O Silêncio dos Sentidos"
+          },
+          {
+            "nome": "O Preço Acumulado"
+          }
+        ],
+        "equipado": "portando"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD006Yefre.EZYefM0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

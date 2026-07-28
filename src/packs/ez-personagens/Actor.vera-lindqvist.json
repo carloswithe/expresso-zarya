@@ -4,54 +4,334 @@
   "type": "personagem",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "nome": "Vera Lindqvist",
-    "conceito": "Bibliotecária humana que sabe tudo sobre o Véu — e não sente nada dele",
-    "nivel": "2",
-    "ancestral": "Humano",
-    "ancNotas": "Virtudes: Adaptabilidade Impressionante · Invisível ao Sobrenatural | Vulnerabilidades: Frágil Diante do Impossível · Cega para o Oculto",
-    "arq": "Mago",
-    "prof": "Bibliotecário",
-    "qualidades": [
-      "Mental|Erudito",
-      "",
-      "Social|Bom Ouvinte",
-      "",
-      "Mental|Disciplinado",
-      "",
-      "Mental|Memória Prodigiosa",
-      ""
-    ],
-    "defeitos": [
-      "Social|Timidez Paralisante",
-      "",
-      "Física|Visão Fraca",
-      "",
-      "Mental|Distraído",
-      ""
-    ],
-    "especialidades": [
-      "Biblioteca Viva",
-      "Leitura de Grimórios"
-    ],
-    "vicios": [
-      "Curiosidade Proibida",
-      "Teoria Antes da Prática"
-    ],
-    "aprendizados": [
-      "Pesquisa em Acervos"
-    ],
-    "traumas": [
-      "Viu o Que Não Devia"
-    ],
-    "equip": "Caderno de campo cifrado · Óculos + óculos reserva · Lupa, giz, barbante e lanterna · Dicionário russo-mongol · Chá em quantidade",
-    "notas": "Credora de Elias Vorona (o livro que olhou de volta). Hipótese: 'cálice limpo' pode ser erro de tradução de 'cálice inteiro'.",
-    "vida": {
-      "pontos": 3
+    "conceito": "Bibliotecária humana que sabe tudo sobre o Véu e não sente nada dele",
+    "jogador": "",
+    "nivel": 2,
+    "ancestralidadeNome": "Humano",
+    "ancestralidadeNotas": "Humana integral, sem uma gota de Véu no sangue. O que a torna ao mesmo tempo a pessoa mais segura na carruagem e a mais cega para o que está acontecendo.",
+    "arquetipoNome": "Mago",
+    "profissaoNome": "Bibliotecário",
+    "xp": {
+      "atual": 0
     },
-    "itens": [],
-    "xp": 0
+    "estiloDeVida": "Modesto",
+    "tokenSorte": true,
+    "vida": {
+      "pontos": 0,
+      "ferimentos": []
+    },
+    "protecao": "",
+    "equipamento": "<p>Caderno de campo cifrado (sistema de Vera, ilegível para qualquer outro) · Óculos graduados + par reserva · Lupa, giz, barbante e lanterna · Dicionário russo-mongol anotado à mão · Chá em quantidade suficiente para uma semana · Fotografias dos textos que não pôde copiar</p>",
+    "notas": "<p><strong>Credora:</strong> Elias Vorona — Vera abriu um livro que a olhou de volta. Vorona chegou antes do que saiu do livro.</p><p><strong>Botão de Klein:</strong> acesso vitalício ao acervo oculto do Consórcio — tudo que ela sempre quis ler, sem nenhum livro olhando de volta.</p><p><strong>Na mesa:</strong> eixo mental e o caminho natural para o Plot B. <em>Invisível ao Sobrenatural</em>: a Sombra não a rastreia — a entregadora perfeita da memória final. É ela quem pode provar aos monges que os textos foram mal traduzidos.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZVerQ0100000000",
+      "name": "Erudito",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Possui vasto conhecimento acumulado em livros, estudos e tradições.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerQ0100000000"
+    },
+    {
+      "_id": "EZVerQ0200000000",
+      "name": "Bom Ouvinte",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "As pessoas se abrem com ela e revelam mais do que deviam.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerQ0200000000"
+    },
+    {
+      "_id": "EZVerQ0300000000",
+      "name": "Disciplinado",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Mantém foco, rotina e método mesmo em tarefas longas e tediosas.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerQ0300000000"
+    },
+    {
+      "_id": "EZVerQ0400000000",
+      "name": "Memória Prodigiosa",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Lembra com precisão de rostos, textos, mapas e conversas antigas.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerQ0400000000"
+    },
+    {
+      "_id": "EZVerD0100000000",
+      "name": "Timidez Paralisante",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Trava diante de estranhos, plateias ou figuras de autoridade.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerD0100000000"
+    },
+    {
+      "_id": "EZVerD0200000000",
+      "name": "Visão Fraca",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Enxerga mal de longe, de perto ou no escuro sem os óculos.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerD0200000000"
+    },
+    {
+      "_id": "EZVerD0300000000",
+      "name": "Distraído",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Perde detalhes importantes; a mente vaga nos piores momentos.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerD0300000000"
+    },
+    {
+      "_id": "EZVerV0100000000",
+      "name": "Adaptabilidade Impressionante",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Humanos aprendem e se adaptam mais rápido que qualquer outra ancestralidade. Vera assimila padrões do Véu que deveriam ser incompreensíveis para alguém sem sangue sobrenatural.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerV0100000000"
+    },
+    {
+      "_id": "EZVerV0200000000",
+      "name": "Invisível ao Sobrenatural",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Entidades do Véu literalmente não a percebem como ameaça ou presa. A Sombra da Chama não a rastreia. Isso faz dela a portadora ideal de qualquer objeto ou memória que precisa chegar até Nadja.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerV0200000000"
+    },
+    {
+      "_id": "EZVerU0100000000",
+      "name": "Frágil Diante do Impossível",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Ao testemunhar eventos que contradizem toda lógica conhecida, Vera congela por um instante — a mente catalogando em vez de reagindo. Em combate, esse instante custa caro.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerU0100000000"
+    },
+    {
+      "_id": "EZVerU0200000000",
+      "name": "Cega para o Oculto",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Sem sentidos sobrenaturais, depende inteiramente do que os outros percebem. O Véu para Vera é sempre teoria, nunca intuição — ela sabe que a Sombra está lá porque leu sobre isso.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerU0200000000"
+    },
+    {
+      "_id": "EZVerE0100000000",
+      "name": "Biblioteca Viva",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Carrega na memória índices de volumes raros. Pode recuperar um fato específico de qualquer texto que já leu — incluindo partes que não lembrava ter memorizado.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerE0100000000"
+    },
+    {
+      "_id": "EZVerE0200000000",
+      "name": "Leitura de Grimórios",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Decifra textos de magia e tratados do Véu em idiomas mortos. Onde outros veem símbolos, ela vê instruções. Pode detectar erros de tradução em textos canônicos.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerE0200000000"
+    },
+    {
+      "_id": "EZVerI0100000000",
+      "name": "Curiosidade Proibida",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Quando descobre algo que não deveria existir, precisa entender — completamente, agora, mesmo que isso a coloque em perigo imediato e desnecessário.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerI0100000000"
+    },
+    {
+      "_id": "EZVerI0200000000",
+      "name": "Teoria Antes da Prática",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Antes de agir, quer entender o mecanismo completo. Hesita em situações onde a ação instintiva seria certa — e quem age por instinto já foi e voltou.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerI0200000000"
+    },
+    {
+      "_id": "EZVerA0100000000",
+      "name": "Pesquisa em Acervos",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Sabe como encontrar o que não deveria estar catalogado; conhece arquivistas, fundos obscuros e sistemas de classificação alternativos em três países.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerA0100000000"
+    },
+    {
+      "_id": "EZVerT0100000000",
+      "name": "Viu o Que Não Devia",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Um livro no acervo a olhou de volta — literalmente. O que estava na página apagou vinte minutos da memória e deixou uma certeza: há coisas que não querem ser entendidas.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ004Vera0.EZVerT0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

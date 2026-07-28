@@ -5,25 +5,83 @@
   "img": "icons/svg/skull.svg",
   "system": {
     "porte": "Adversário à Altura",
-    "vitalidade": 4,
-    "vida": {
-      "pontos": 4
+    "vitalidade": {
+      "max": 4,
+      "atual": 4
     },
-    "arma": "Cat. I (pistola compacta — o perigo dela nunca foi a pistola)",
-    "tags": [
-      "Rosto de Mármore",
-      "Recursos Ilimitados"
-    ],
-    "fraquezas": [
-      "A Carga Não Pode Morrer — aborta qualquer plano que arrisque a vida de Nadja; um jogador esperto pode usar a menina como escudo diplomático"
-    ],
-    "itensComDom": [
-      "Anel-Agulha Sedativo (Dom 2: um arranhão da luva direita força teste contra sono; Maldição 1: o anel sussurra à noite)"
-    ],
-    "notas": "Cena 2–4. Consultora de arte de Zurique, oficialmente. Fachada: lê o mesmo jornal há tempo demais; dinheiro novo demais; reservou a cabine 3-D em nome da galeria. A oferta dela é real, desenhada para partir a mesa ao meio. Sabotou o freio do trem na Cena 4. Retorna com Nada a Perder (+1 dado de Risco social).",
-    "cena": "2-4"
+    "categoriaArma": "I",
+    "protecao": "",
+    "comoAparece": "<p>Cenas 2–4. Consultora de arte de Zurique, oficialmente. Fachada: lê o mesmo jornal há tempo demais; dinheiro novo demais; reservou a cabine 3-D em nome da galeria. Luva direita de couro sempre na mão — esconde o Anel-Agulha. A oferta que ela faz é real, financeiramente generosa, e desenhada para partir a mesa ao meio.</p>",
+    "comoLuta": "<p>A pistola compacta (Cat. I) nunca é o perigo real — o Anel-Agulha Sedativo na luva direita é. Um arranhão força teste contra sono imediato. Em combate social, usa <em>Recursos Ilimitados</em> para comprar aliados na hora. Sabotou o freio do trem na Cena 4. Retorna na Cena 4 com Tag extra <em>Nada a Perder</em> (+1 dado de Risco em confrontos sociais). Fraqueza: <em>A Carga Não Pode Morrer</em> — aborta qualquer plano que arrisque a vida de Nadja; um jogador esperto pode usar a menina como escudo diplomático.</p>",
+    "descricao": "<p>Representa uma organização de contenção europeia — não é vilã por crueldade, é pragmática. Quer Nadja viva, isolada e monitorada, para estudar a encarnação da Chama com segurança. Acredita genuinamente que esta é a solução mais humana disponível. Se convencida de que há alternativa segura, considera. O Anel-Agulha Sedativo (item com dom) está na luva — seus dois dons são <em>Sedação Discreta</em> e <em>Precisão Cirúrgica</em>; sua maldição é <em>O Anel Sussurra à Noite</em>.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZKleT0100000000",
+      "name": "Rosto de Mármore",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Expressão completamente impassível — nunca revela surpresa, medo ou irritação. Rolagens para lê-la têm +1 dado de Risco.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD004Klein.EZKleT0100000000"
+    },
+    {
+      "_id": "EZKleT0200000000",
+      "name": "Recursos Ilimitados",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Pode pagar subornos, contratar aliados ou adquirir equipamentos em qualquer parada — a organização não tem orçamento visível.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD004Klein.EZKleT0200000000"
+    },
+    {
+      "_id": "EZKleM0100000000",
+      "name": "Anel-Agulha Sedativo",
+      "type": "mitem",
+      "img": "icons/equipment/finger/ring-cabochon-gold-red.webp",
+      "system": {
+        "descricao": "<p>Anel de ouro branco com uma agulha oca escondida sob a pedra. Um giro discreto do anel expõe a ponta — um arranhão em qualquer superfície de pele exposta injeta o sedativo. Invisível sob a luva de couro da Klein.</p>",
+        "dadivas": [
+          {
+            "nome": "Sedação Discreta"
+          },
+          {
+            "nome": "Precisão Cirúrgica"
+          }
+        ],
+        "maldicoes": [
+          {
+            "nome": "O Anel Sussurra à Noite"
+          }
+        ],
+        "equipado": "portando"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD004Klein.EZKleM0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

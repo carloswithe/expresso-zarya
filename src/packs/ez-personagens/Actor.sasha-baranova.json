@@ -4,54 +4,334 @@
   "type": "personagem",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "nome": "Sasha Baranova",
-    "conceito": "Paramédica que morreu, voltou — e não voltou sozinha",
-    "nivel": "2",
-    "ancestral": "Reanimado",
-    "ancNotas": "Hóspede: entidade menor de limiar — guarda portas entre estados (vida/morte, dentro/fora) | Virtudes: Corpo Além da Dor · Já Estive do Outro Lado | Vulnerabilidades: Carne que Não Cura · Cheiro da Sepultura",
-    "arq": "Receptáculo",
-    "prof": "Paramédico",
-    "qualidades": [
-      "Mental|Paciente",
-      "",
-      "Social|Confiável",
-      "",
-      "Física|Mãos Firmes",
-      "",
-      "Física|Resistente",
-      ""
-    ],
-    "defeitos": [
-      "Mental|Pessimista",
-      "",
-      "Social|Forasteiro Eterno",
-      "",
-      "Física|Movimentos Rígidos",
-      ""
-    ],
-    "especialidades": [
-      "Âncora Estável",
-      "Conselho Interior"
-    ],
-    "vicios": [
-      "A Fronteira Afina",
-      "Fala em Duas Vozes"
-    ],
-    "aprendizados": [
-      "Primeiros Socorros"
-    ],
-    "traumas": [
-      "O Paciente que Perdeu"
-    ],
-    "equip": "Mochila de paramédica completa · Tesoura de trauma (Cat. I) · Kit de sutura industrial · Amônia, adrenalina, morfina · Luvas de nitrilo",
-    "notas": "Credora de Elias Vorona (a segunda vida). O hóspede fica inquieto perto de Nadja. Klein oferece uma 'extração'. Única pessoa que sabe na pele o que é dividir o corpo com outra coisa.",
-    "vida": {
-      "pontos": 3
+    "conceito": "Paramédica reanimada que carrega uma voz do outro lado",
+    "jogador": "",
+    "nivel": 2,
+    "ancestralidadeNome": "Reanimado",
+    "ancestralidadeNotas": "Morreu na mesa de operação e voltou. O que voltou junto com ela não tem nome mas tem opiniões. Sasha não conta sobre a voz. Os outros a ouvem às vezes — em frases que Sasha não terminou.",
+    "arquetipoNome": "Receptáculo",
+    "profissaoNome": "Paramédico",
+    "xp": {
+      "atual": 0
     },
-    "itens": [],
-    "xp": 0
+    "estiloDeVida": "Modesto",
+    "tokenSorte": true,
+    "vida": {
+      "pontos": 0,
+      "ferimentos": []
+    },
+    "protecao": "",
+    "equipamento": "<p>Maleta médica de campo (bandagens, suturas, morfina, adrenalina, splints) · Estetoscópio · Luvas cirúrgicas de borracha (nunca sem elas) · Cantil de vodca medicinal · Caderneta de ocorrências com entradas que ela não lembra de escrever</p>",
+    "notas": "<p><strong>Credor:</strong> Elias Vorona — Vorona estava presente no hospital na noite em que Sasha morreu e voltou. Estava lá antes que qualquer equipe médica chegasse. Ela nunca perguntou por quê.</p><p><strong>Botão de Klein:</strong> o nome do que voltou com ela — e o que ele quer.</p><p><strong>Na mesa:</strong> suporte médico e eixo do sobrenatural. A voz conhece Nadja. Quando Sasha e Nadja ficarem sós, a voz vai falar — e vai usar a boca de Sasha.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZSasQ0100000000",
+      "name": "Paciente",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Mantém calma e foco em situações prolongadas e exaustivas.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasQ0100000000"
+    },
+    {
+      "_id": "EZSasQ0200000000",
+      "name": "Confiável",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "As pessoas a procuram quando estão feridas, assustadas ou perdidas — ela não abandona.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasQ0200000000"
+    },
+    {
+      "_id": "EZSasQ0300000000",
+      "name": "Mãos Firmes",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Movimentos cirúrgicos precisos e controlados mesmo sob pressão extrema.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasQ0300000000"
+    },
+    {
+      "_id": "EZSasQ0400000000",
+      "name": "Resistente",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Aguenta dor, fadiga, fome e ferimentos sem cair.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasQ0400000000"
+    },
+    {
+      "_id": "EZSasD0100000000",
+      "name": "Pessimista",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Espera o pior e descarta planos otimistas antes de tentá-los.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasD0100000000"
+    },
+    {
+      "_id": "EZSasD0200000000",
+      "name": "Forasteiro Eterno",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Nunca se encaixa completamente em nenhum grupo — sempre a de fora que cuida, nunca a que pertence.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasD0200000000"
+    },
+    {
+      "_id": "EZSasD0300000000",
+      "name": "Movimentos Rígidos",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "A morte deixou marcas que o corpo carrega — movimentos bruscos causam dor; velocidade em ação física é comprometida.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasD0300000000"
+    },
+    {
+      "_id": "EZSasV0100000000",
+      "name": "Corpo Além da Dor",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Ferimentos que incapacitariam qualquer outro apenas a atrasam. Pode continuar funcionando em estado Ferido sem penalidade enquanto seu trabalho exige — o corpo aprende a ignorar o que a mente registra.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasV0100000000"
+    },
+    {
+      "_id": "EZSasV0200000000",
+      "name": "Já Estive do Outro Lado",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Entidades do Véu a reconhecem como alguém que esteve além. Isso cria uma estranha zona de não-agressão — criaturas que atacariam qualquer outro hesitam diante dela, como se esperassem uma saudação que ela não sabe dar.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasV0200000000"
+    },
+    {
+      "_id": "EZSasU0100000000",
+      "name": "Carne que Não Cura",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Ferimentos de Sasha cicatrizam mais devagar que o normal — o corpo reanimado tem metabolismo de reparação comprometido. Curativos são necessários onde outros se recuperariam sozinhos.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasU0100000000"
+    },
+    {
+      "_id": "EZSasU0200000000",
+      "name": "Cheiro da Sepultura",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Animais fogem, crianças pequenas choram e pessoas sensivelmente sintonizadas com o Véu percebem o que ela é antes que ela abra a boca.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasU0200000000"
+    },
+    {
+      "_id": "EZSasE0100000000",
+      "name": "Âncora Estável",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Pode ancorar uma presença no mundo material — impedindo que uma entidade se dissolva, se manifeste além do permitido ou arraste alguém para o Véu por uma cena. Funciona sobre Nadja, Zofia em crise de psicometria, e a Chama nos instantes de transição.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasE0100000000"
+    },
+    {
+      "_id": "EZSasE0200000000",
+      "name": "Conselho Interior",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "A voz que voltou com Sasha às vezes oferece informações sobre entidades, locais ou pessoas do Véu que Sasha não poderia saber. Ela pode consultar — mas a voz cobra em atenção, e atenção dividida é perigosa.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasE0200000000"
+    },
+    {
+      "_id": "EZSasI0100000000",
+      "name": "A Fronteira Afina",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Quanto mais Sasha usa os poderes do Receptáculo, mais a fronteira entre ela e a voz se dissolve. Em cenas de alta intensidade sobrenatural, a voz pode tomar controle de frases, gestos, ou de um turno inteiro de ação.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasI0100000000"
+    },
+    {
+      "_id": "EZSasI0200000000",
+      "name": "Fala em Duas Vozes",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Em momentos de estresse extremo, Sasha responde perguntas com informações que ela não deveria ter — e depois não lembra o que disse. Os outros ouviram. Ela não.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasI0200000000"
+    },
+    {
+      "_id": "EZSasA0100000000",
+      "name": "Primeiros Socorros",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Estabiliza ferimentos, improvisa cirurgia de campo, administra doses e reconhece envenenamentos. É a única pessoa no trem com qualificação para manter alguém vivo até o próximo ponto de socorro.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasA0100000000"
+    },
+    {
+      "_id": "EZSasT0100000000",
+      "name": "O Paciente que Perdeu",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Um paciente morreu por uma decisão dela — a correta tecnicamente, a errada em tudo mais. Quando precisa escolher entre salvar um e arriscar outro, os dois rostos se sobrepõem.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ006Sasha.EZSasT0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

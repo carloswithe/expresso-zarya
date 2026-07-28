@@ -4,18 +4,21 @@
   "type": "mitem",
   "img": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
   "system": {
-    "nome": "Anel-Agulha Sedativo",
-    "nivel": 2,
-    "categoria": "Cat. I (arranhão)",
+    "descricao": "<p>Anel de prata com mecanismo de mola embutido na banda interna. Um arranhão discreto da face interna da luva direita injeta sedativo de ação rápida. Klein usa luva de couro fino na mão direita para disfarçar o mecanismo — contato visual cuidadoso pode notar a luva nunca sai.</p><p>O alvo não sente o contato até estar semiconsciente. A agulha não deixa marca visível a olho nu. Sedativo dura 1–3 horas dependendo do peso corporal.</p>",
     "dadivas": [
-      "Sedação Discreta — um arranhão da luva direita força teste contra sono imediato; o alvo não sente o contato até já estar semiconsciente",
-      "Precisão Cirúrgica — a agulha não deixa marca visível a olho nu"
+      {
+        "nome": "Sedação Discreta"
+      },
+      {
+        "nome": "Precisão Cirúrgica"
+      }
     ],
     "maldicoes": [
-      "O Anel Sussurra à Noite — a portadora ouve vozes dos sedados enquanto dorme; noites acumuladas sem descanso real"
+      {
+        "nome": "O Anel Sussurra à Noite"
+      }
     ],
-    "portador": "Marguerite Klein",
-    "notas": "Dom 2, Maldição 1. Klein usa luva direita de couro fino para disfarçar o mecanismo. Particularmente perigoso combinado com Recursos Ilimitados — ela pode sedatar um alvo socialmente antes de fisicamente agir."
+    "equipado": "portando"
   },
   "effects": [],
   "ownership": {

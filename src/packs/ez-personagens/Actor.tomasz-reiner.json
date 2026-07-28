@@ -4,54 +4,334 @@
   "type": "personagem",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "nome": "Tomasz Reiner",
     "conceito": "Advogado infernal que assinou em branco para a pessoa errada",
-    "nivel": "2",
-    "ancestral": "Ínfero",
-    "ancNotas": "Virtudes: Língua de Enxofre · Carne do Abismo | Vulnerabilidades: Estigma Infernal · Preso à Palavra Dada",
-    "arq": "Maculado",
-    "prof": "Advogado",
-    "qualidades": [
-      "Mental|Leitor de Pessoas",
-      "",
-      "Social|Negociador",
-      "",
-      "Mental|Memória Prodigiosa",
-      "",
-      "Social|Mentiroso Convincente",
-      ""
-    ],
-    "defeitos": [
-      "Social|Arrogante",
-      "",
-      "Mental|Obsessivo",
-      "",
-      "Física|Fôlego Curto",
-      ""
-    ],
-    "especialidades": [
-      "Escrita de Contrato",
-      "Colheita de Segredos"
-    ],
-    "vicios": [
-      "Cláusulas Ocultas",
-      "A Conta Sempre Chega"
-    ],
-    "aprendizados": [
-      "Contratos e Brechas"
-    ],
-    "traumas": [
-      "Falência que Arrastou Todos"
-    ],
-    "equip": "Pasta de couro com contratos · Caneta-tinteiro do avô · Pistola compacta (Cat. III) · Frasco de antiácido",
-    "notas": "Credor: Elias Vorona (assinatura em branco). Klein tem uma cópia do contrato.",
-    "vida": {
-      "pontos": 3
+    "jogador": "",
+    "nivel": 2,
+    "ancestralidadeNome": "Ínfero",
+    "ancestralidadeNotas": "A linhagem infernal não é herança de um demônio — é resultado de um ancestral que fechou um pacto sem ler as letras miúdas. Tomasz entende o erro melhor do que qualquer outro.",
+    "arquetipoNome": "Maculado",
+    "profissaoNome": "Advogado",
+    "xp": {
+      "atual": 0
     },
-    "itens": [],
-    "xp": 0
+    "estiloDeVida": "Confortável",
+    "tokenSorte": true,
+    "vida": {
+      "pontos": 0,
+      "ferimentos": []
+    },
+    "protecao": "",
+    "equipamento": "<p>Pasta de couro com contratos (incluindo o de Vorona, cópia) · Caneta-tinteiro do avô com tinta vermelha · Pistola compacta (Cat. III) · Frasco de antiácido · Agenda com nomes, favores e dívidas</p>",
+    "notas": "<p><strong>Credor:</strong> Elias Vorona — um favor não especificado assinado em branco quando a firma afundava. Nem Tomasz sabe tudo que aquele papel diz.</p><p><strong>Botão de Klein:</strong> <em>\"Nós compramos contratos, doutor. Especialmente os mal redigidos.\"</em></p><p><strong>Na mesa:</strong> eixo social e jurídico. <em>Escrita de Contrato</em> + <em>Língua de Enxofre</em> fazem dele o único capaz de negociar de igual para igual com Klein, o Abade — e talvez com a própria Chama. Se ele prometer qualquer coisa nesta viagem, o universo cobra.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZTomQ0100000000",
+      "name": "Leitor de Pessoas",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Percebe intenções, mentiras e emoções escondidas nos outros.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomQ0100000000"
+    },
+    {
+      "_id": "EZTomQ0200000000",
+      "name": "Negociador",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Consegue acordos, descontos e trocas vantajosas.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomQ0200000000"
+    },
+    {
+      "_id": "EZTomQ0300000000",
+      "name": "Memória Prodigiosa",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Lembra com precisão de rostos, textos, mapas e conversas antigas.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomQ0300000000"
+    },
+    {
+      "_id": "EZTomQ0400000000",
+      "name": "Mentiroso Convincente",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Sustenta uma farsa sem vacilar, olho no olho.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomQ0400000000"
+    },
+    {
+      "_id": "EZTomD0100000000",
+      "name": "Arrogante",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Trata os outros como inferiores e faz questão de mostrar.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomD0100000000"
+    },
+    {
+      "_id": "EZTomD0200000000",
+      "name": "Obsessivo",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Fixa-se em uma ideia e não consegue soltá-la, mesmo que o prejudique.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomD0200000000"
+    },
+    {
+      "_id": "EZTomD0300000000",
+      "name": "Fôlego Curto",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Cansa rápido; esforços longos o derrubam.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomD0300000000"
+    },
+    {
+      "_id": "EZTomV0100000000",
+      "name": "Língua de Enxofre",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Palavras de Tomasz carregam peso infernal — argumentos que ele deseja que se cumpram têm chance de se tornar compulsórios para o ouvinte, especialmente se este já hesitava.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomV0100000000"
+    },
+    {
+      "_id": "EZTomV0200000000",
+      "name": "Carne do Abismo",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Ferimentos de fogo e ácido cicatrizam ao dobro da velocidade normal; o corpo lembra o que forjou a linhagem.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomV0200000000"
+    },
+    {
+      "_id": "EZTomU0100000000",
+      "name": "Estigma Infernal",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Criaturas celestiais e entidades de pureza detectam a natureza de Tomasz imediatamente. Não pode mentir em terreno sagrado sem consequência física — a Língua de Enxofre produz literalmente enxofre.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomU0100000000"
+    },
+    {
+      "_id": "EZTomU0200000000",
+      "name": "Preso à Palavra Dada",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Qualquer compromisso verbal explícito se torna magicamente vinculante para Tomasz. A quebra de promessa solene causa dano real e imediato — não apenas narrativo.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomU0200000000"
+    },
+    {
+      "_id": "EZTomE0100000000",
+      "name": "Escrita de Contrato",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Redigir acordos com implicações ocultas ou duplos sentidos. Qualquer contrato que Tomasz escreve tem a força de um pacto — para ambos os lados.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomE0100000000"
+    },
+    {
+      "_id": "EZTomE0200000000",
+      "name": "Colheita de Segredos",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "A cada segredo descoberto, este se torna uma alavanca — tanto para proteger quanto para pressionar. Tomasz nunca esquece o que aprendeu.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomE0200000000"
+    },
+    {
+      "_id": "EZTomI0100000000",
+      "name": "Cláusulas Ocultas",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Nunca fecha um acordo sem inserir alguma cláusula em benefício próprio — mesmo quando é desnecessário, arriscado e vai claramente irritar quem confia nele.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomI0100000000"
+    },
+    {
+      "_id": "EZTomI0200000000",
+      "name": "A Conta Sempre Chega",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Favores que Tomasz faz são registrados mentalmente com juros. Vai cobrar, mesmo anos depois, mesmo quando o outro já esqueceu completamente.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomI0200000000"
+    },
+    {
+      "_id": "EZTomA0100000000",
+      "name": "Contratos e Brechas",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Conhece legislação, precedentes e o que é tecnicamente permissível; encontra saídas onde outros veem muros — e sabe quando um contrato verbal tem mais força que um escrito.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomA0100000000"
+    },
+    {
+      "_id": "EZTomT0100000000",
+      "name": "Falência que Arrastou Todos",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "A firma foi à falência por decisões dele; vários funcionários perderam tudo. Cada vez que protege a própria posição em detrimento do grupo, os rostos voltam.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ003Tomas.EZTomT0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

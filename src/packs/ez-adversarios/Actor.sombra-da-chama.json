@@ -5,89 +5,118 @@
   "img": "icons/svg/fire.svg",
   "system": {
     "natureza": "Eco defensivo de uma entidade encarnante — séculos de encarnações apagadas, medo acumulado, vestindo o pânico de uma menina de nove anos",
-    "presenca": "+1 (Fases 1–2) · +2 (Fase 3)",
-    "limiar": "Máx. 2 de dano por rolagem, salvo Fraqueza explorada — aí o dano é integral",
-    "retaliacao": "Falha Crítica do grupo = 1 Avanço da Agenda",
-    "vida": {
-      "pontos": 13
-    },
+    "descricao": "<p><strong>Presença:</strong> +1 (Fases 1–2) · +2 (Fase 3, <em>presencaExtra</em> ativada)</p><p><strong>Limiar:</strong> Máximo de 2 de dano por rolagem, salvo Fraqueza explorada — nesse caso o dano é integral.</p><p><strong>Retaliação:</strong> Falha Crítica do grupo = 1 Avanço da Agenda.</p><p><strong>Gatilho:</strong> O Despertar chega a 6 sob terror — o confronto final das facções alcança Nadja (Yefrem irrompendo pela janela, Klein sacando o anel, o trem freando de emergência).</p><p><strong>Nota do Mestre:</strong> Se o Despertar chegar a 6 com Nadja protegida e confiante: rode apenas a Fase 1 encurtada (2–3 rolagens) e salte direto para a fala da Chama e a negociação.</p>",
+    "faseAtual": 0,
     "fases": [
       {
-        "numero": 1,
         "nome": "O Véu de Geada",
-        "vitalidade": 4,
-        "arma": "Cat. II (estilhaços de vidro dirigidos, frio que queima)",
-        "tags": [
-          "Presença Esmagadora",
-          "Não Deste Mundo"
-        ],
-        "descricao": "O vagão inteiro é a manifestação: geada desenhando mandalas nas janelas, sombras compridas demais, o corredor mais longo do que deveria ser. Nadja no centro, imóvel, olhos fechados.",
-        "transicao": "O frio recua por um instante — e então Nadja abre os olhos, e eles são duas chamas azuis. Ela flutua. Vai para a Fase 2."
+        "forma": "O vagão inteiro é a manifestação: geada desenhando mandalas nas janelas, sombras compridas demais, o corredor mais longo do que deveria ser. Nadja no centro, imóvel, olhos fechados.",
+        "vitalidade": {
+          "max": 4,
+          "atual": 4
+        },
+        "categoriaArma": "II",
+        "protecao": "",
+        "tags": "Presença Esmagadora, Não Deste Mundo",
+        "presencaExtra": false,
+        "transicao": "<p>O frio recua por um instante — e então Nadja abre os olhos, e eles são duas chamas azuis. Ela flutua. Vai para a Fase 2.</p>"
       },
       {
-        "numero": 2,
         "nome": "A Coroa de Fogo Frio",
-        "vitalidade": 5,
-        "arma": "Cat. III (lanças de fogo frio, objetos arremessados)",
-        "protecao": "Escudo de Medo (−1 em todo dano — ignorado pela Fraqueza 1)",
-        "tags": [
-          "Fogo que Não Aquece",
-          "A Sala Obedece a Ela"
-        ],
-        "descricao": "Nadja levitando no corredor, coroada por uma chama azul que ilumina sem aquecer; a voz dela vem com uma segunda voz por baixo, dessincronizada.",
-        "transicao": "A chama engole a menina por inteiro — e o vagão deixa de ser um vagão. Vai para a Fase 3."
+        "forma": "Nadja levitando no corredor, coroada por uma chama azul que ilumina sem aquecer; a voz dela vem com uma segunda voz por baixo, dessincronizada.",
+        "vitalidade": {
+          "max": 5,
+          "atual": 5
+        },
+        "categoriaArma": "III",
+        "protecao": "Escudo de Medo (−1 em todo dano — ignorado pela Fraqueza O Nome Dela)",
+        "tags": "Fogo que Não Aquece, A Sala Obedece a Ela",
+        "presencaExtra": false,
+        "transicao": "<p>A chama engole a menina por inteiro — e o vagão deixa de ser um vagão. Vai para a Fase 3.</p>"
       },
       {
-        "numero": 3,
         "nome": "A Chama Nua",
-        "vitalidade": 4,
-        "presencaFase": "+2",
-        "arma": "Cat. IV (a realidade local dobrando: gravidade, frio absoluto, memória)",
-        "tags": [
-          "Muitas Vozes numa Boca",
-          "O Mundo Dobra ao Redor"
-        ],
-        "descricao": "O interior do trem e a estepe lá fora se sobrepõem (neve caindo dentro do corredor, o chão de tábuas virando capim congelado); no centro, uma silhueta de fogo azul do tamanho de uma menina, com séculos de vozes.",
-        "derrota_fraqueza1": "Zerada pela Fraqueza 1 → a Sombra recua como maré e a Terceira Chama fala: 'Perguntaram a ela o que ela quer?' — abre-se a negociação e o coabitação voluntária.",
-        "derrota_violencia": "Zerada por dano físico puro → Nadja sofre quase-morte, a entidade recua ferida, o rito do mosteiro passa a parecer a única opção."
+        "forma": "O interior do trem e a estepe lá fora se sobrepõem (neve caindo dentro do corredor, o chão de tábuas virando capim congelado); no centro, uma silhueta de fogo azul do tamanho de uma menina, com séculos de vozes.",
+        "vitalidade": {
+          "max": 4,
+          "atual": 4
+        },
+        "categoriaArma": "IV",
+        "protecao": "",
+        "tags": "Muitas Vozes numa Boca, O Mundo Dobra ao Redor",
+        "presencaExtra": true,
+        "transicao": "<p><strong>Zerada pela Fraqueza O Nome Dela:</strong> a Sombra recua como maré e a Terceira Chama fala: 'Perguntaram a ela o que ela quer?' — abre-se a negociação e a coabitação voluntária.<br><strong>Zerada por dano físico puro:</strong> Nadja sofre quase-morte, a entidade recua ferida, o rito do mosteiro passa a parecer a única opção.</p>"
       }
     ],
     "fraquezas": [
       {
         "nome": "O Nome Dela",
-        "descricao": "Lembrar a Sombra de quem Nadja é fere com dano integral, ignorando o Limiar: memórias concretas e verdadeiras (o chocolate, a matrioska sem a boneca do meio, os buracos no gelo do Baikal, a pergunta 'você já matou alguém?'). Rolagens SOCIAIS E MENTAIS podem causar dano por esta via. Mentiras e clichês NÃO funcionam e geram +1 dado de Risco."
+        "descricao": "<p>Lembrar a Sombra de quem Nadja é fere com dano integral, ignorando o Limiar: memórias concretas e verdadeiras (o chocolate, a matrioska sem a boneca do meio, os buracos no gelo do Baikal, a pergunta 'você já matou alguém?'). Rolagens SOCIAIS E MENTAIS podem causar dano por esta via. Mentiras e clichês NÃO funcionam e geram +1 dado de Risco.</p>"
       },
       {
         "nome": "O Toque que Apaga",
-        "descricao": "O Dom de Yefrem, sustentado em contato direto, quebra o Limiar por uma cena inteira e pode cancelar um Avanço da Agenda em curso. Custo: consome o que resta dos sentidos de Yefrem — exige que alguém o convença ou segure vivo para isso."
+        "descricao": "<p>O Dom de Yefrem, sustentado em contato direto, quebra o Limiar por uma cena inteira e pode cancelar um Avanço da Agenda em curso. Custo: consome o que resta dos sentidos de Yefrem — exige que alguém o convença ou segure vivo para isso.</p>"
       }
     ],
+    "presenca": 1,
     "agenda": [
       {
-        "numero": 1,
-        "nome": "O Frio da Fornalha",
-        "efeito": "A temperatura despenca no comboio inteiro; a fornalha da locomotiva apaga; Tag de cena Frio que Morde (+1 dado de Risco em ações físicas) até o fim do confronto."
+        "texto": "O Frio da Fornalha: a temperatura despenca no comboio inteiro; a fornalha da locomotiva apaga; Tag de cena Frio que Morde (+1 dado de Risco em ações físicas) até o fim do confronto.",
+        "completo": false
       },
       {
-        "numero": 2,
-        "nome": "O Coro dos Adormecidos",
-        "efeito": "Passageiros em transe levantam-se e caminham contra os jogadores (bando de 4 Capangas, Vitalidade 1, Cat. I, Tag Inocentes — feri-los tem custo moral e narrativo). Sasha é imune."
+        "texto": "O Coro dos Adormecidos: passageiros em transe levantam-se e caminham contra os jogadores (bando de 4 Capangas, Vitalidade 1, Cat. I, Tag Inocentes — feri-los tem custo moral e narrativo). Sasha é imune.",
+        "completo": false
       },
       {
-        "numero": 3,
-        "nome": "A Primeira Lembrança Queima",
-        "efeito": "A Sombra consome uma memória de Nadja (o mestre escolhe: o rosto de Dara, o gosto de chocolate, a matrioska). Cada uso da Fraqueza 1 depois disso fica mais difícil: há menos Nadja para chamar de volta."
+        "texto": "A Primeira Lembrança Queima: a Sombra consome uma memória de Nadja (o mestre escolhe: o rosto de Dara, o gosto de chocolate, a matrioska). Cada uso da Fraqueza O Nome Dela depois disso fica mais difícil — há menos Nadja para chamar de volta.",
+        "completo": false
       },
       {
-        "numero": 4,
-        "nome": "Desfecho — O Cálice Racha",
-        "efeito": "Nadja é apagada de dentro para fora e a Chama nasce selvagem e sem âncora sobre a estepe. A one-shot termina em derrota amarga — ou vira a primeira sessão de uma campanha de contenção."
+        "texto": "Desfecho — O Cálice Racha: Nadja é apagada de dentro para fora e a Chama nasce selvagem e sem âncora sobre a estepe. A one-shot termina em derrota amarga — ou vira a primeira sessão de uma campanha de contenção.",
+        "completo": false
       }
     ],
-    "gatilho": "O Despertar chega a 6 sob terror — o confronto final das facções alcança Nadja (Yefrem irrompendo pela janela, Klein sacando o anel, o trem freando de emergência).",
-    "notaMestre": "Se o Despertar chegar a 6 com Nadja protegida e confiante: rode apenas a Fase 1 encurtada (2–3 rolagens) e salte direto para a fala da Chama e a negociação."
+    "derrota": "<p><strong>Vitória pela negociação (Fraqueza O Nome Dela):</strong> A Sombra recua voluntariamente. Nadja é Nadja novamente — e a Chama também, coabitando. Ela sabe que pode virar a Fase 3 de novo. Isso é paz, não vitória. <strong>Vitória pela violência:</strong> Nadja está em quase-morte. A entidade recua ferida. Alguém vai tentar o rito do mosteiro. A mesa descobre que 'cálice limpo' era erro de tradução tarde demais ou a tempo.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZSomT0100000000",
+      "name": "Presença Esmagadora",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "A realidade local distorce ao redor da Sombra — distâncias, sons e tempo percebido se tornam não-confiáveis.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD008Sombr.EZSomT0100000000"
+    },
+    {
+      "_id": "EZSomT0200000000",
+      "name": "Não Deste Mundo",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Armas físicas comuns causam metade do dano — a Sombra não tem corpo para perfurar ou cortar da maneira convencional.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD008Sombr.EZSomT0200000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

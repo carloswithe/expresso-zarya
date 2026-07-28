@@ -5,21 +5,36 @@
   "img": "icons/svg/skull.svg",
   "system": {
     "porte": "Capanga",
-    "vitalidade": 1,
-    "vida": {
-      "pontos": 1
+    "vitalidade": {
+      "max": 1,
+      "atual": 1
     },
-    "arma": "Cat. I (mãos nuas — não veio para lutar)",
-    "tags": [
-      "Imóvel como Pedra"
-    ],
-    "fraquezas": [
-      "Só Observa — confrontado, foge; encurralado, engole uma cápsula de cera com o relatório e desmaia"
-    ],
-    "notas": "Cena 1. Confirma o embarque de Nadja para a Mão Vazia. Deixa cair um rosário de contas queimadas quando foge — pista que faz Dara empalidecer. Psicometria de Zofia no rosário mostra: dedos descalços na neve, uma lista de nomes de crianças, séculos dela.",
-    "cena": "1"
+    "categoriaArma": "I",
+    "protecao": "",
+    "comoAparece": "<p>Cena 1. Passageiro comum: rosário de contas escurecidas pelo uso, olhar que nunca para por mais de dois segundos em nenhuma face. Confirma o embarque de Nadja e transmite relatório verbal à Mão Vazia na primeira parada.</p>",
+    "comoLuta": "<p>Não luta — veio apenas para observar. Confrontado diretamente, foge. Encurralado, engole uma cápsula de cera com o relatório e desmaia. Fraqueza: <em>Só Observa</em> — qualquer abordagem direta o paralisa; não tem treinamento de combate.</p>",
+    "descricao": "<p>Ao fugir, derruba um rosário de contas queimadas — pista que faz Dara empalidecer. Psicometria de Zofia no rosário mostra: dedos descalços na neve, uma lista de nomes de crianças, séculos dela. A cápsula engolida pode ser recuperada para decifrar o protocolo de comunicação da Mão Vazia.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZVigT0100000000",
+      "name": "Imóvel como Pedra",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Fica completamente parado e invisível ao olhar casual por horas; o cérebro humano simplesmente o classifica como mobiliário.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD001Vigia.EZVigT0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

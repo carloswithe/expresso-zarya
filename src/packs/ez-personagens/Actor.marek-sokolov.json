@@ -4,55 +4,334 @@
   "type": "personagem",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "nome": "Marek Sokolov",
     "conceito": "Soldado lobisomem que caça o que caçou sua cidade",
-    "nivel": "2",
-    "ancestral": "Lobisomem",
-    "ancNotas": "Virtudes: Sentidos de Predador · Fúria da Fera | Vulnerabilidades: Instinto Indomável · Marcado pela Prata",
-    "arq": "Caçador",
-    "prof": "Militar",
-    "qualidades": [
-      "Mental|Sangue-Frio",
-      "",
-      "Física|Resistente",
-      "",
-      "Social|Voz de Comando",
-      "",
-      "Física|Reflexos Felinos",
-      ""
-    ],
-    "defeitos": [
-      "Mental|Teimoso",
-      "",
-      "Física|Ferimento Antigo",
-      "",
-      "Social|Frio e Distante",
-      ""
-    ],
-    "especialidades": [
-      "Combate contra o Maior",
-      "Conhecimento da Presa"
-    ],
-    "vicios": [
-      "Visão de Túnel",
-      "Atira Primeiro"
-    ],
-    "aprendizados": [
-      "Disciplina em Combate"
-    ],
-    "traumas": [
-      "Deixou Alguém para Trás"
-    ],
-    "equip": "Fuzil de caça desmontado em mala dupla (Cat. III) · Faca de combate (Cat. II) · Colete tático (Proteção 1) · Kit de campanha, corda, binóculos",
-    "protecao": "Colete tático (−1 contra balas e lâminas)",
-    "notas": "Credor: Elias Vorona (dívida de sangue). Klein sabe onde a família mora. A prata do restaurante corta dos dois lados.",
-    "vida": {
-      "pontos": 3
+    "jogador": "",
+    "nivel": 2,
+    "ancestralidadeNome": "Lobisomem",
+    "ancestralidadeNotas": "A transformação não é física — é instintiva. Sob lua cheia ou raiva extrema, os sentidos triplicam e a pele esquece que é pele.",
+    "arquetipoNome": "Caçador",
+    "profissaoNome": "Militar",
+    "xp": {
+      "atual": 0
     },
-    "itens": [],
-    "xp": 0
+    "estiloDeVida": "Modesto",
+    "tokenSorte": true,
+    "vida": {
+      "pontos": 0,
+      "ferimentos": []
+    },
+    "protecao": "Colete tático oculto (−1 contra balas e lâminas)",
+    "equipamento": "<p>Fuzil de caça desmontado em mala dupla (Cat. III) · Faca de combate (Cat. II) · Colete tático sob o casaco · Kit de campanha, corda 12m, binóculos militares · Fotografias da família em envelope selado</p>",
+    "notas": "<p><strong>Credor:</strong> Elias Vorona (dívida de sangue — Vorona tirou a família de Marek de uma cidade que os mapas fingem não lembrar).</p><p><strong>Botão de Klein:</strong> <em>\"Sabemos onde a sua família mora agora. Para protegê-la, claro.\"</em></p><p><strong>Na mesa:</strong> eixo tático. <em>Visão de Túnel</em> + <em>Atira Primeiro</em>: quando ele trava um alvo perto de Nadja, alguém precisa segurá-lo. A baixela de prata do restaurante corta dos dois lados.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZMrkQ0100000000",
+      "name": "Sangue-Frio",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Mantém a calma e a clareza mesmo em pânico, horror ou caos.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkQ0100000000"
+    },
+    {
+      "_id": "EZMrkQ0200000000",
+      "name": "Resistente",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Aguenta dor, fadiga, fome e ferimentos sem cair.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkQ0200000000"
+    },
+    {
+      "_id": "EZMrkQ0300000000",
+      "name": "Voz de Comando",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Quando fala, os outros escutam e obedecem.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkQ0300000000"
+    },
+    {
+      "_id": "EZMrkQ0400000000",
+      "name": "Reflexos Felinos",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Reage num piscar de olhos ao inesperado.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkQ0400000000"
+    },
+    {
+      "_id": "EZMrkD0100000000",
+      "name": "Teimoso",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Recusa-se a mudar de ideia mesmo diante de provas claras.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkD0100000000"
+    },
+    {
+      "_id": "EZMrkD0200000000",
+      "name": "Ferimento Antigo",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Uma lesão mal curada que dói e falha nos piores momentos.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkD0200000000"
+    },
+    {
+      "_id": "EZMrkD0300000000",
+      "name": "Frio e Distante",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Incapaz de demonstrar afeto; parece não se importar.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkD0300000000"
+    },
+    {
+      "_id": "EZMrkV0100000000",
+      "name": "Sentidos de Predador",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Olfato, audição e visão noturna amplificados — rastreia alvos pelo cheiro e escuta batimentos cardíacos a metros de distância.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkV0100000000"
+    },
+    {
+      "_id": "EZMrkV0200000000",
+      "name": "Fúria da Fera",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Sob estresse extremo, pode acionar uma explosão de força e velocidade sobre-humanas por uma cena. Se não for contida, a fúria escolhe o alvo mais próximo — aliado ou inimigo.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkV0200000000"
+    },
+    {
+      "_id": "EZMrkU0100000000",
+      "name": "Instinto Indomável",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Em combate prolongado ou diante de sangue, a vontade do personagem compete com o instinto da fera — e o instinto tem votos.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkU0100000000"
+    },
+    {
+      "_id": "EZMrkU0200000000",
+      "name": "Marcado pela Prata",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Objetos de prata causam dor física pelo contato. Ferimentos de prata não cicatrizam pela cura natural. O vagão restaurante tem baixelas de prata.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkU0200000000"
+    },
+    {
+      "_id": "EZMrkE0100000000",
+      "name": "Combate contra o Maior",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Quando enfrenta adversários maiores, mais fortes ou do Véu, ganha 1 dado extra de Ação — precisamente onde os outros recuam.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkE0100000000"
+    },
+    {
+      "_id": "EZMrkE0200000000",
+      "name": "Conhecimento da Presa",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Sabe como criaturas do Véu se movem, o que as apavora e como caçam; reconhece rastros e sinais que ninguém mais leria.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkE0200000000"
+    },
+    {
+      "_id": "EZMrkI0100000000",
+      "name": "Visão de Túnel",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Quando trava um alvo, tudo o mais desaparece — inclusive os aliados em perigo ao redor.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkI0100000000"
+    },
+    {
+      "_id": "EZMrkI0200000000",
+      "name": "Atira Primeiro",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Em situações ambíguas, o impulso é agir antes de avaliar; interpreta hesitação alheia como ameaça iminente.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkI0200000000"
+    },
+    {
+      "_id": "EZMrkA0100000000",
+      "name": "Disciplina em Combate",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Sobrevivência e liderança em zonas de guerra; sabe manter calma operacional quando outros entram em pânico.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkA0100000000"
+    },
+    {
+      "_id": "EZMrkT0100000000",
+      "name": "Deixou Alguém para Trás",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Tomou uma decisão que sacrificou alguém sob sua proteção. O rosto não some, e situações semelhantes o paralisam por um instante decisivo.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ001Marek.EZMrkT0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

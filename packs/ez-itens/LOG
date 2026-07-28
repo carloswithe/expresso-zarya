@@ -1,5 +1,5 @@
-2026/07/27-20:27:58.921 2fc4 Delete type=3 #1
-2026/07/27-20:27:58.924 6d94 Level-0 table #5: started
-2026/07/27-20:27:58.925 6d94 Level-0 table #5: 2351 bytes OK
-2026/07/27-20:27:58.926 6d94 Delete type=0 #3
-2026/07/27-20:27:58.926 6d94 Manual compaction at level-0 from '!items!ExpZarIT001Vespe' @ 72057594037927935 : 1 .. '!items!ExpZarIT003Toque' @ 0 : 0; will stop at (end)
+2026/07/27-23:10:27.404 594c Delete type=3 #1
+2026/07/27-23:10:27.406 2ab0 Level-0 table #5: started
+2026/07/27-23:10:27.407 2ab0 Level-0 table #5: 2055 bytes OK
+2026/07/27-23:10:27.408 2ab0 Delete type=0 #3
+2026/07/27-23:10:27.408 2ab0 Manual compaction at level-0 from '!items!ExpZarIT001Vespe' @ 72057594037927935 : 1 .. '!items!ExpZarIT003Toque' @ 0 : 0; will stop at (end)

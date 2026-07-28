@@ -4,63 +4,356 @@
   "type": "personagem",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "nome": "Gabriel Ferreira",
     "conceito": "Ex-noviço celestial que jurou servir até que a chama se apague",
-    "nivel": "2",
-    "ancestral": "Celestial",
-    "ancNotas": "Voto Inquebrantável: servir Elias Vorona \"até que a chama se apague\" | Virtudes: Aura de Graça · Toque Restaurador | Vulnerabilidades: Farol no Escuro · Voto Inquebrantável",
-    "arq": "Arma Juramentada",
-    "prof": "Líder Religioso",
-    "qualidades": [
-      "Mental|Vontade de Ferro",
-      "",
-      "Social|Empático",
-      "",
-      "Física|Presença Imponente",
-      "",
-      "Social|Diplomata",
-      ""
-    ],
-    "defeitos": [
-      "Mental|Indeciso",
-      "",
-      "Social|Submisso",
-      "",
-      "Física|Pesado",
-      ""
-    ],
-    "especialidades": [
-      "Postura do Sentinela",
-      "Arma que Sussurra"
-    ],
-    "vicios": [
-      "Preso ao Juramento",
-      "Honra Antes da Razão"
-    ],
-    "aprendizados": [
-      "Ritos e Aconselhamento"
-    ],
-    "traumas": [
-      "Pacto que Presenciou"
-    ],
-    "equip": "Véspera (baioneta consagrada, Cat. II) · Hábito de viagem reforçado · Breviário anotado · Frasco de óleo de unção · Corda de sino do seminário",
-    "notas": "Credor: Elias Vorona (voto perpétuo). O que Gabriel viu no porão do seminário era Vorona assinando o próprio pacto. Véspera emite um zumbido baixo diante de mentiras.",
-    "vida": {
-      "pontos": 3
+    "jogador": "",
+    "nivel": 2,
+    "ancestralidadeNome": "Celestial",
+    "ancestralidadeNotas": "A linhagem não é angelical — é de alguém que ficou do lado certo de uma fronteira que a maioria não sabe que existe. Isso não o torna santo. Torna-o marcado.",
+    "arquetipoNome": "Arma Juramentada",
+    "profissaoNome": "Líder Religioso",
+    "xp": {
+      "atual": 0
     },
-    "itens": [
-      {
-        "nome": "Véspera, a baioneta consagrada (1917)",
-        "nivel": "1",
-        "dadivas": [
-          "Canta Diante de Mentiras (um zumbido baixo que só o portador nota)"
-        ],
-        "maldicoes": []
-      }
-    ],
-    "xp": 0
+    "estiloDeVida": "Precário",
+    "tokenSorte": true,
+    "vida": {
+      "pontos": 0,
+      "ferimentos": []
+    },
+    "protecao": "Hábito de viagem com placas de couro enrijecido (−1 contra impacto)",
+    "equipamento": "<p>Véspera (baioneta consagrada, Cat. II) · Hábito de viagem reforçado · Breviário anotado à mão ao longo de anos · Frasco de óleo de unção (para estabilizar ferimentos fatais) · Corda de sino do seminário — que nunca tocou depois daquela noite</p>",
+    "notas": "<p><strong>Credor:</strong> Elias Vorona — o voto perpétuo: servir Vorona <em>\"até que a chama se apague\"</em>. Gabriel achou que era poesia litúrgica.</p><p><strong>Botão de Yefrem:</strong> <em>\"Eu também fiz votos, irmão. Também descobri tarde a quem.\"</em></p><p><strong>Na mesa:</strong> pino do clímax. Quando a mesa descobrir o que \"até que a chama se apague\" significa — o voto manda entregar. O Trauma <em>Pacto que Presenciou</em> encaixa na Cena 4 quando Dara revela. Se o jogador perceber o duplo sentido sozinho, é a cena da noite.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZGabQ0100000000",
+      "name": "Vontade de Ferro",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Resiste a manipulação, tortura, medo e influências sobre sua mente.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabQ0100000000"
+    },
+    {
+      "_id": "EZGabQ0200000000",
+      "name": "Empático",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Compreende a dor e a alegria alheias; as pessoas confiam nele.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabQ0200000000"
+    },
+    {
+      "_id": "EZGabQ0300000000",
+      "name": "Presença Imponente",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Porte físico que enche o ambiente e chama respeito.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabQ0300000000"
+    },
+    {
+      "_id": "EZGabQ0400000000",
+      "name": "Diplomata",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Acalma ânimos e media conflitos antes que virem violência.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabQ0400000000"
+    },
+    {
+      "_id": "EZGabD0100000000",
+      "name": "Indeciso",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Trava diante de escolhas; hesita quando precisa agir.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabD0100000000"
+    },
+    {
+      "_id": "EZGabD0200000000",
+      "name": "Submisso",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Cede a qualquer pressão; não consegue dizer não.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabD0200000000"
+    },
+    {
+      "_id": "EZGabD0300000000",
+      "name": "Pesado",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "O próprio peso atrapalha saltos, escaladas e furtividade.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabD0300000000"
+    },
+    {
+      "_id": "EZGabV0100000000",
+      "name": "Aura de Graça",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "A presença de Gabriel acalma animais, crianças e entidades perturbadas — inclusive Nadja em Despertar crescente. Em combate, um aliado por cena pode rolar com +1 dado de Ação quando Gabriel o nomeia como protegido.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabV0100000000"
+    },
+    {
+      "_id": "EZGabV0200000000",
+      "name": "Toque Restaurador",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Pode estabilizar alguém em estado Fatal com um toque. Não cura ferimentos — apenas impede a morte imediata até socorro adequado. O óleo de unção potencializa o efeito.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabV0200000000"
+    },
+    {
+      "_id": "EZGabU0100000000",
+      "name": "Farol no Escuro",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Criaturas das trevas e entidades hostis detectam e são atraídas por Gabriel antes de qualquer outro do grupo. Onde ele está, o Véu hostil olha.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabU0100000000"
+    },
+    {
+      "_id": "EZGabU0200000000",
+      "name": "Voto Inquebrantável",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Votos feitos com intenção têm peso cosmológico para Gabriel. A quebra de qualquer promessa solene causa dano espiritual imediato e real — não apenas narrativo.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabU0200000000"
+    },
+    {
+      "_id": "EZGabE0100000000",
+      "name": "Postura do Sentinela",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Quando declara um aliado como protegido no início de uma cena, ganha +1 dado de Ação em qualquer interposição, bloqueio ou defesa em favor dessa pessoa.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabE0100000000"
+    },
+    {
+      "_id": "EZGabE0200000000",
+      "name": "Arma que Sussurra",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Véspera serve como extensão da intenção de Gabriel. A lâmina emite um zumbido audível apenas para ele quando detecta mentiras nas proximidades — incluindo intenções ocultas que o orador ainda não verbalizou.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabE0200000000"
+    },
+    {
+      "_id": "EZGabI0100000000",
+      "name": "Preso ao Juramento",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "O voto de servir Elias Vorona 'até que a chama se apague' é magicamente vinculante. Ordens diretas de Vorona criam uma compulsão difícil de resistir — e Vorona sabe disso.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabI0100000000"
+    },
+    {
+      "_id": "EZGabI0200000000",
+      "name": "Honra Antes da Razão",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Quando confrontado com uma situação que testa sua honra, escolhe o caminho honroso mesmo que seja claramente o caminho errado — e depois tenta consertar o estrago.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabI0200000000"
+    },
+    {
+      "_id": "EZGabA0100000000",
+      "name": "Ritos e Aconselhamento",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Conhece rituais de múltiplas tradições e sabe quando e como administrá-los. É a pessoa que outros buscam quando não conseguem encontrar palavras — inclusive para falar com Nadja.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabA0100000000"
+    },
+    {
+      "_id": "EZGabT0100000000",
+      "name": "Pacto que Presenciou",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "No porão do seminário, décadas atrás, viu um homem assinar algo com sangue enquanto uma sombra testemunhava. Não entendeu o que viu. A memória voltou completa quando embarcou neste trem.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabT0100000000"
+    },
+    {
+      "_id": "EZGabM0100000000",
+      "name": "Véspera, a Baioneta Consagrada (1917)",
+      "type": "mitem",
+      "img": "icons/weapons/swords/shortsword-guard-gold.webp",
+      "system": {
+        "descricao": "<p>Baioneta forjada em 1917, consagrada em um rito de uma ordem monástica hoje extinta. A lâmina tem um leve escurecimento permanente que nenhum polimento remove. Arma de Categoria II.</p>",
+        "dadivas": [
+          {
+            "nome": "Canta Diante de Mentiras"
+          }
+        ],
+        "maldicoes": [],
+        "equipado": "portando"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ005Gabri.EZGabM0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

@@ -4,15 +4,14 @@
   "type": "mitem",
   "img": "icons/weapons/swords/shortsword-guard-gold.webp",
   "system": {
-    "nome": "Véspera, a Baioneta Consagrada (1917)",
-    "nivel": 1,
-    "categoria": "Cat. II",
+    "descricao": "<p>Baioneta forjada em 1917, consagrada em um rito de uma ordem monástica hoje extinta. A lâmina tem um leve escurecimento permanente que nenhum polimento remove. Arma de Categoria II. Quando usada por Gabriel, interage com a especialidade <em>Arma que Sussurra</em>.</p>",
     "dadivas": [
-      "Canta Diante de Mentiras — emite um zumbido baixo que só o portador nota quando alguém mente nas proximidades"
+      {
+        "nome": "Canta Diante de Mentiras"
+      }
     ],
     "maldicoes": [],
-    "portador": "Gabriel Ferreira",
-    "notas": "Baioneta de 1917, consagrada em rito agora esquecido. A canção é discreta mas inconfundível para quem a carrega. Interage com Véspera, a Baioneta que Sussurra (Arquétipo de Gabriel)."
+    "equipado": "portando"
   },
   "effects": [],
   "ownership": {

@@ -4,23 +4,55 @@
   "type": "adversario",
   "img": "icons/svg/skull.svg",
   "system": {
-    "porte": "Ameaça ×5",
-    "vitalidade": 5,
-    "vida": {
-      "pontos": 5
+    "porte": "Ameaça",
+    "vitalidade": {
+      "max": 5,
+      "atual": 5
     },
-    "arma": "Cat. II (bastões) — trilha única: 1 quadrado por monge",
-    "tags": [
-      "Disciplina de Ferro",
-      "Lutam como Um"
-    ],
-    "fraquezas": [
-      "Obedecem o Abade — convencer o Abade Tenzin-Khar desarma todos de uma vez"
-    ],
-    "notas": "Cena 4. Não são vilões: são ortodoxos. Esperam em Darkhan-Sur com cavalos e palanquim. Se a mesa fugir com Nadja, perseguem; se negociar, escutam. O Abade Tenzin-Khar (não combatente) é a chave social: Sucesso Espetacular com ele pode revelar que 'cálice limpo' é erro de tradução de 'cálice inteiro'.",
-    "cena": "4"
+    "categoriaArma": "II",
+    "protecao": "",
+    "comoAparece": "<p>Cena 4. Esperavam em Darkhan-Sur com cavalos e palanquim. Cinco monges de hábito cinza, bastões de madeira dura reforçados com bronze. Não são vilões: são ortodoxos. Cada ponto de vitalidade representa um monge — 5 pontos, 5 combatentes.</p>",
+    "comoLuta": "<p>Bastões (Cat. II). Lutam em formação fechada — se a mesa fugir com Nadja, perseguem montados. Se a mesa negociar, escutam. Lutam apenas para conter, nunca para matar. Fraqueza: <em>Obedecem o Abade</em> — convencer o Abade Tenzin-Khar (não combatente, presente na cena) desarma todos de uma só vez. Um Sucesso Espetacular social com o Abade pode revelar que 'cálice limpo' é erro de tradução de 'cálice inteiro'.</p>",
+    "descricao": "<p>O Abade Tenzin-Khar está presente mas não entra em combate. É a chave social da cena. Sabe que o rito está mal documentado mas acredita que é necessário — alguém que prove que a tradução está errada muda tudo. Vera é a pessoa certa para isso.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZMonT0100000000",
+      "name": "Disciplina de Ferro",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Décadas de treinamento físico e meditativo — ignoram dor moderada e cansaço em combate ritual.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD007Monge.EZMonT0100000000"
+    },
+    {
+      "_id": "EZMonT0200000000",
+      "name": "Lutam como Um",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "A formação dos cinco é treinada há anos — gaps deixados por um são cobertos pelos outros antes que o atacante possa explorá-los.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD007Monge.EZMonT0200000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

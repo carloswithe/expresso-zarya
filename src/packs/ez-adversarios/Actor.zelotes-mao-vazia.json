@@ -4,23 +4,55 @@
   "type": "adversario",
   "img": "icons/svg/skull.svg",
   "system": {
-    "porte": "Capanga ×8 (2 Bandos de 4)",
-    "vitalidade": 8,
-    "vida": {
-      "pontos": 8
+    "porte": "Capanga",
+    "vitalidade": {
+      "max": 6,
+      "atual": 6
     },
-    "arma": "Cat. II (facões, machadinhas)",
-    "tags": [
-      "Fanatismo",
-      "Três Pontos de Entrada"
-    ],
-    "fraquezas": [
-      "Sem Yefrem, Sem Rumo — se Yefrem cai ou recua, a coordenação desmorona"
-    ],
-    "notas": "Cena 3. Não recuam, não negociam. Corte para 6 capangas se o tempo apertar. Objetivo: localizar Nadja, não vencer duelos. Entram por: plataforma traseira do vagão 8, janelas do vagão 5 (escadas externas) e vão sob o trem suspenso. Guardam de fronteira tratam QUALQUER pessoa armada como hostil.",
-    "cena": "3"
+    "categoriaArma": "II",
+    "protecao": "",
+    "comoAparece": "<p>Cena 3. Oito zelotes no total (2 bandos de 4), representados como trilha única de 6 pontos — cada ponto eliminado remove um ou dois combatentes da briga. Não recuam, não negociam, não parecem sentir medo. Vestem cinza e marrom, sem insígnias visíveis.</p>",
+    "comoLuta": "<p>Facões e machadinhas (Cat. II). Três pontos de entrada simultâneos: plataforma traseira do vagão 8, janelas do vagão 5 (escadas externas) e vão sob o trem suspenso. Objetivo: localizar Nadja, não vencer duelos — circulam ao redor do combate principal. Fraqueza: <em>Sem Yefrem, Sem Rumo</em> — se Yefrem cai ou recua, a coordenação desmorona imediatamente. Mestre: pode cortar para 6 capangas se o tempo apertar.</p>",
+    "descricao": "<p>Fanáticos genuínos — acreditam que suprimir Nadja é misericórdia, não assassinato. Guardar de fronteira tratam QUALQUER pessoa armada como hostil ao lado deles. Cada ponto de vitalidade representa aproximadamente um zelota — os 2 pontos além do máximo da trilha (8 total, 6 na trilha) são eliminados na entrada pelo fogo cruzado dos seguranças de Klein.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZZelT0100000000",
+      "name": "Fanatismo",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Ignoram dor, cansaço e medo enquanto acreditam que estão cumprindo propósito sagrado — intimidação e persuasão social têm +1 dado de Risco contra eles.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD005Zelot.EZZelT0100000000"
+    },
+    {
+      "_id": "EZZelT0200000000",
+      "name": "Três Pontos de Entrada",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Atacam de três direções ao mesmo tempo — bloquear uma entrada não impede as outras duas.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD005Zelot.EZZelT0200000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

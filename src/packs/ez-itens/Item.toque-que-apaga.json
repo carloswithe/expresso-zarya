@@ -4,20 +4,27 @@
   "type": "mitem",
   "img": "icons/magic/control/silhouette-hold-change-blue.webp",
   "system": {
-    "nome": "O Toque que Apaga",
-    "nivel": 3,
-    "categoria": "Contato",
+    "descricao": "<p>Não é um objeto — é uma modificação permanente das mãos de Yefrem, adquirida décadas atrás quando tocou uma entidade de limiar a pedido do Abade Tenzin-Khar. Cada dedo perdeu algo diferente: o toque do polegar extinguiu o olfato, o indicador levou o gosto, o médio levou a sensação de calor. Os outros dois aguardam.</p><p><strong>Chave mecânica da Cena 4:</strong> corresponde à Fraqueza 2 da Sombra da Chama. Para funcionar, Yefrem precisa estar vivo, presente e convencido a ajudar — transformando o principal inimigo da Cena 3 na potencial solução da Cena 4.</p>",
     "dadivas": [
-      "Supressão do Véu — o toque de Yefrem suprime manifestações sobrenaturais do Véu no alvo; sustentado em contato direto, quebra o Limiar da Sombra da Chama por uma cena inteira",
-      "Extinção de Manifestação — pode cancelar um Avanço da Agenda da Sombra em curso durante o contato",
-      "Alcance Sobrenatural — funciona mesmo contra entidades que não têm corpo físico, desde que haja um ponto de ancoragem material"
+      {
+        "nome": "Supressão do Véu"
+      },
+      {
+        "nome": "Extinção de Manifestação"
+      },
+      {
+        "nome": "Alcance Sobrenatural"
+      }
     ],
     "maldicoes": [
-      "O Silêncio dos Sentidos — Yefrem não sente mais calor; o Dom já consumiu o gosto e o afeto. Cada uso prolongado consome mais um sentido ou emoção",
-      "O Preço Acumulado — cada uso do Dom em algo poderoso deixa Yefrem um pouco mais vazio; ao final, pode restar só a fé sem o fiel"
+      {
+        "nome": "O Silêncio dos Sentidos"
+      },
+      {
+        "nome": "O Preço Acumulado"
+      }
     ],
-    "portador": "Yefrem, o Descalço",
-    "notas": "Dom 3, Maldição 2. Chave mecânica central da Cena 4: Fraqueza 2 da Sombra da Chama. Para funcionar contra A Sombra, Yefrem precisa estar vivo, presente e convencido a ajudar — transformando o principal inimigo da Cena 3 na potencial solução da Cena 4."
+    "equipado": "portando"
   },
   "effects": [],
   "ownership": {

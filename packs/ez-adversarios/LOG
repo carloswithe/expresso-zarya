@@ -1,5 +1,5 @@
-2026/07/27-20:27:58.758 6988 Delete type=3 #1
-2026/07/27-20:27:58.762 6aac Level-0 table #5: started
-2026/07/27-20:27:58.763 6aac Level-0 table #5: 7659 bytes OK
-2026/07/27-20:27:58.763 6aac Delete type=0 #3
-2026/07/27-20:27:58.763 6aac Manual compaction at level-0 from '!actors!ExpZarAD001Vigia' @ 72057594037927935 : 1 .. '!actors!ExpZarAD008Sombr' @ 0 : 0; will stop at (end)
+2026/07/27-23:10:27.389 594c Delete type=3 #1
+2026/07/27-23:10:27.391 2ab0 Level-0 table #5: started
+2026/07/27-23:10:27.393 2ab0 Level-0 table #5: 14805 bytes OK
+2026/07/27-23:10:27.393 2ab0 Delete type=0 #3
+2026/07/27-23:10:27.393 2ab0 Manual compaction at level-0 from '!actors!ExpZarAD001Vigia' @ 72057594037927935 : 1 .. '!actors.items!ExpZarAD008Sombr.EZSomT0200000000' @ 0 : 0; will stop at (end)

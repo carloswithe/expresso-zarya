@@ -4,54 +4,334 @@
   "type": "personagem",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "nome": "Zofia Lem",
     "conceito": "Batedora de carteiras que lê o passado de tudo que rouba",
-    "nivel": "2",
-    "ancestral": "Férico",
-    "ancNotas": "Virtudes: Glamour · Passos Entre Véus | Vulnerabilidades: Alergia ao Ferro Frio · Incapaz de Mentir",
-    "arq": "Oráculo",
-    "prof": "Vigarista",
-    "qualidades": [
-      "Mental|Intuitivo",
-      "",
-      "Social|Lábia Rápida",
-      "",
-      "Física|Ágil",
-      "",
-      "Mental|Leitor de Pessoas",
-      ""
-    ],
-    "defeitos": [
-      "Mental|Impulsivo",
-      "",
-      "Social|Má Reputação",
-      "",
-      "Física|Franzino",
-      ""
-    ],
-    "especialidades": [
-      "Psicometria",
-      "Brecha na Névoa"
-    ],
-    "vicios": [
-      "Toque Perigoso",
-      "Visões Involuntárias"
-    ],
-    "aprendizados": [
-      "Golpes e Disfarces"
-    ],
-    "traumas": [
-      "Infância em Orfanato Cruel"
-    ],
-    "equip": "Gazuas de cerâmica (nada de ferro) · Luvas finas de couro · Baralho marcado · Canivete (Cat. II) · Três passaportes, nenhum bom",
-    "notas": "Credor: Elias Vorona (a carteira errada). Alergia a ferro frio: o trem inteiro é uma armadilha. Nadja fala a língua dos orfanatos.",
-    "vida": {
-      "pontos": 3
+    "jogador": "",
+    "nivel": 2,
+    "ancestralidadeNome": "Férico",
+    "ancestralidadeNotas": "Nunca conheceu a corte. Aprendeu o que é sendo o que é — e a maior parte veio depois de tocar a carteira errada.",
+    "arquetipoNome": "Oráculo",
+    "profissaoNome": "Vigarista",
+    "xp": {
+      "atual": 0
     },
-    "itens": [],
-    "xp": 0
+    "estiloDeVida": "Precário",
+    "tokenSorte": true,
+    "vida": {
+      "pontos": 0,
+      "ferimentos": []
+    },
+    "protecao": "",
+    "equipamento": "<p>Gazuas de cerâmica (nada de ferro) · Luvas finas de couro sem costura de metal · Baralho marcado · Canivete de osso (Cat. I) · Três passaportes, nenhum com o nome que ela odeia · Caixa de lenços bordados roubados</p>",
+    "notas": "<p><strong>Credor:</strong> Elias Vorona — Zofia bateu a carteira errada em Praga. O que ela viu ao tocar aquilo a fez desmaiar na praça. Vorona não a puniu. Anotou.</p><p><strong>Botão de Klein:</strong> dinheiro dobrado + passaporte novo, sem o nome que ela odeia.</p><p><strong>Na mesa:</strong> chave investigativa mais perigosa — tudo que ela furta, ela lê. <em>Incapaz de Mentir</em> numa vigarista é comédia trágica. O orfanato dela e o de Nadja se reconhecem sem uma palavra.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZZofQ0100000000",
+      "name": "Intuitivo",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Sente quando algo está errado antes de saber explicar por quê.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofQ0100000000"
+    },
+    {
+      "_id": "EZZofQ0200000000",
+      "name": "Lábia Rápida",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Convence, enrola e escapa de situações na base da conversa.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofQ0200000000"
+    },
+    {
+      "_id": "EZZofQ0300000000",
+      "name": "Ágil",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Movimentos rápidos e precisos; esquiva-se com naturalidade.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofQ0300000000"
+    },
+    {
+      "_id": "EZZofQ0400000000",
+      "name": "Leitor de Pessoas",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Percebe intenções, mentiras e emoções escondidas nos outros.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofQ0400000000"
+    },
+    {
+      "_id": "EZZofD0100000000",
+      "name": "Impulsivo",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Mental",
+        "descricao": "Age antes de pensar, mesmo quando pensar era essencial.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofD0100000000"
+    },
+    {
+      "_id": "EZZofD0200000000",
+      "name": "Má Reputação",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Social",
+        "descricao": "Seu nome chega antes de você — e não é elogio.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofD0200000000"
+    },
+    {
+      "_id": "EZZofD0300000000",
+      "name": "Franzino",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "caracteristica",
+        "grupo": "Física",
+        "descricao": "Pouca força; tarefas braçais a superam.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofD0300000000"
+    },
+    {
+      "_id": "EZZofV0100000000",
+      "name": "Glamour",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Pode projetar uma aparência ou aura levemente diferente da real — suficiente para desviar olhares e criar primeiras impressões falsas. Não é ilusão plena: quem observar com atenção notará inconsistências.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofV0100000000"
+    },
+    {
+      "_id": "EZZofV0200000000",
+      "name": "Passos Entre Véus",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Enxerga e ocasionalmente atravessa frestas entre o mundo material e o Véu — portas que não constam nos mapas e saídas que não existiam no segundo anterior.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofV0200000000"
+    },
+    {
+      "_id": "EZZofU0100000000",
+      "name": "Alergia ao Ferro Frio",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Contato com ferro não trabalhado ou aço puro causa dor e queimação imediatas. Não pode usar utensílios comuns de metal. O trem inteiro é uma estrutura de aço — uma armadilha de ferro.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofU0100000000"
+    },
+    {
+      "_id": "EZZofU0200000000",
+      "name": "Incapaz de Mentir",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "ancestralidade",
+        "grupo": "",
+        "descricao": "Não consegue pronunciar uma mentira direta — pode omitir, iludir, refrasenar, mas a mentira explícita se recusa a sair da boca. Comédia trágica para uma vigarista profissional.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofU0200000000"
+    },
+    {
+      "_id": "EZZofE0100000000",
+      "name": "Psicometria",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Ao tocar um objeto com as mãos nuas, recebe flashes sensoriais de quem o tocou antes. Quanto maior a carga emocional do objeto, mais intenso e involuntário o flash.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofE0100000000"
+    },
+    {
+      "_id": "EZZofE0200000000",
+      "name": "Brecha na Névoa",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Pode abrir uma passagem momentânea entre dois pontos do Véu próximos, suficiente para uma pessoa passar. Dura segundos e deixa uma marca fria no ar.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofE0200000000"
+    },
+    {
+      "_id": "EZZofI0100000000",
+      "name": "Toque Perigoso",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Cada objeto tocado com as mãos nuas pode desencadear uma visão involuntária. Objetos de alta carga emocional são impossíveis de ignorar — a mão vai em direção a eles antes que a mente decida.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofI0100000000"
+    },
+    {
+      "_id": "EZZofI0200000000",
+      "name": "Visões Involuntárias",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "arquetipo",
+        "grupo": "",
+        "descricao": "Em momentos de estresse agudo, a psicometria dispara sem controle — o passado de superfícies, objetos e pessoas ao redor invade o presente de Zofia sem aviso.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofI0200000000"
+    },
+    {
+      "_id": "EZZofA0100000000",
+      "name": "Golpes e Disfarces",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Pickpocket profissional, teatro de distração, substituição de objetos e fuga de situações sem ser vista. Inclui falsificação de documentos de baixa complexidade.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofA0100000000"
+    },
+    {
+      "_id": "EZZofT0100000000",
+      "name": "Infância em Orfanato Cruel",
+      "type": "tag",
+      "system": {
+        "polaridade": "negativa",
+        "origem": "antecedente",
+        "grupo": "",
+        "descricao": "Viu o que adultos fazem quando ninguém os observa. A desconfiança de Zofia é reflexo antes de ser decisão — e às vezes dispara quando não devia.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarPJ002Zofia.EZZofT0100000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0

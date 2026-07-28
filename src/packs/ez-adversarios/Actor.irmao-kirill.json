@@ -5,22 +5,54 @@
   "img": "icons/svg/skull.svg",
   "system": {
     "porte": "Ameaça",
-    "vitalidade": 2,
-    "vida": {
-      "pontos": 2
+    "vitalidade": {
+      "max": 2,
+      "atual": 2
     },
-    "arma": "Cat. II (machadinha de cozinha)",
-    "tags": [
-      "Silencioso como Neve",
-      "Rotas Decoradas"
-    ],
-    "fraquezas": [
-      "Devoção Cega — sacrifica qualquer vantagem para proteger ou obedecer Yefrem"
-    ],
-    "notas": "Cena 2–3. Embarcou como ajudante de cozinha; marcou as portas a giz. A cozinha já notou que ele não sabe cozinhar. Sabotou o quadro elétrico do galpão em Naushki (Cena 3). Pistas: pés descalços em botas dois números maiores; giz nas portas entre vagões.",
-    "cena": "2-3"
+    "categoriaArma": "II",
+    "protecao": "",
+    "comoAparece": "<p>Cenas 2–3. Embarcou como ajudante de cozinha; marcou as portas com giz. A cozinha já notou que ele não sabe cozinhar. Pistas para os jogadores: pés descalços em botas dois números maiores; giz nas portas entre vagões. Sabotou o quadro elétrico do galpão em Naushki na Cena 3.</p>",
+    "comoLuta": "<p>Machadinha de cozinha improvisada como arma (Cat. II). Silencioso — não grita, não ameaça, não negocia. Conhece cada rota do trem de cabeça; usará os dutos de ventilação e o teto entre vagões se encurralado. Fraqueza: <em>Devoção Cega</em> — sacrifica qualquer vantagem tática para proteger ou obedecer Yefrem diretamente.</p>",
+    "descricao": "<p>Papel estratégico: explorador e sabotador interno da Mão Vazia. Mapeou a posição de Nadja e sabotou as saídas de emergência antes que os zelotes embarcassem na Cena 3. Se capturado, fala sobre Yefrem com fervor genuíno — não com medo. Acredita.</p>"
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "EZKirT0100000000",
+      "name": "Silencioso como Neve",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Move-se em silêncio absoluto — nenhum passo, nenhuma respiração audível além do necessário. No trem em movimento, é praticamente indetectável.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD003Kiril.EZKirT0100000000"
+    },
+    {
+      "_id": "EZKirT0200000000",
+      "name": "Rotas Decoradas",
+      "type": "tag",
+      "system": {
+        "polaridade": "positiva",
+        "origem": "caracteristica",
+        "grupo": "",
+        "descricao": "Memorizou a planta completa do Trans-Siberiano: cada porta, cada duto, cada ponto cego das janelas.",
+        "ativa": true
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ExpZarAD003Kiril.EZKirT0200000000"
+    }
+  ],
   "effects": [],
   "ownership": {
     "default": 0
